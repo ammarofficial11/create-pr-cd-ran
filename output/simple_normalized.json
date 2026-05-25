@@ -736,7 +736,8 @@
       "DCPD": 1.0,
       "RRU": 2.0,
       "Antenna": 1.0,
-      "FeederConnector 1 5/8": 4.0
+      "FeederConnector 1 5/8": 4.0,
+      "Bracket": 1.0
     }
   },
   "S01417": {
@@ -759,6 +760,7 @@
       "RRU": 10.0,
       "ODCPD": 6.0,
       "Antenna": 3.0,
+      "Bracket": 3.0,
       "Security Bar": 1.0
     }
   },
@@ -1053,7 +1055,7 @@
       "Feeder 1/2": 80.0,
       "FeederConnector 1/2": 12.0,
       "FeederConnector 7/8": 28.0,
-      "Bracket": 1.0
+      "Bracket": 4.0
     }
   },
   "Q01839": {
@@ -2843,7 +2845,8 @@
       "RRU": 14.0,
       "ODCPD": 9.0,
       "Antenna": 3.0,
-      "Combiner": 1.0
+      "Combiner": 1.0,
+      "Bracket": 3.0
     }
   },
   "9192B": {
@@ -3314,7 +3317,7 @@
       "RRU": 12.0,
       "ODCPD": 4.0,
       "Antenna": 4.0,
-      "Bracket": 1.0
+      "Bracket": 5.0
     }
   },
   "Q01490": {
@@ -7645,7 +7648,8 @@
       "ODCPD": 4.0,
       "Antenna": 1.0,
       "Filter": 4.0,
-      "Combiner": 1.0
+      "Combiner": 1.0,
+      "Bracket": 1.0
     }
   },
   "Q00321": {
@@ -9202,7 +9206,8 @@
       "FeederConnector 1/2": 24.0,
       "Antenna": 3.0,
       "Feeder 7/8": 240.0,
-      "FeederConnector 7/8": 24.0
+      "FeederConnector 7/8": 24.0,
+      "Bracket": 3.0
     }
   },
   "S01948": {
@@ -9328,7 +9333,8 @@
     "quantities": {
       "BBU Cards": 1.0,
       "RRU": 1.0,
-      "AAU": 1.0
+      "AAU": 1.0,
+      "Bracket": 1.0
     }
   },
   "9460B": {
@@ -10288,7 +10294,8 @@
       "Circuit Breaker": 2.0,
       "RRU": 6.0,
       "Antenna": 3.0,
-      "FeederConnector 7/8": 12.0
+      "FeederConnector 7/8": 12.0,
+      "Bracket": 3.0
     }
   },
   "7751B": {
@@ -10587,7 +10594,8 @@
       "Battery": 6.0,
       "BBU Cards": 1.0,
       "AAU": 2.0,
-      "Antenna": 1.0
+      "Antenna": 1.0,
+      "Bracket": 1.0
     }
   },
   "S01956": {
@@ -12097,7 +12105,8 @@
       "Feeder 1/2": 30.0,
       "FeederConnector 1/2": 12.0,
       "ODCPD": 6.0,
-      "Antenna": 2.0
+      "Antenna": 2.0,
+      "Bracket": 3.0
     }
   },
   "3431B11": {
@@ -12433,7 +12442,8 @@
       "ODCPD": 6.0,
       "Antenna": 3.0,
       "Feeder 7/8": 600.0,
-      "FeederConnector 7/8": 24.0
+      "FeederConnector 7/8": 24.0,
+      "Bracket": 3.0
     }
   },
   "K00776": {
@@ -17104,7 +17114,8 @@
       "Circuit Breaker": 1.0,
       "RRU": 2.0,
       "AAU": 1.0,
-      "Antenna": 2.0
+      "Antenna": 2.0,
+      "Bracket": 1.0
     }
   },
   "7040D": {
@@ -17388,7 +17399,8 @@
       "Feeder 1/2": 30.0,
       "FeederConnector 1/2": 12.0,
       "Antenna": 2.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 2.0
     }
   },
   "4321C": {
@@ -18742,7 +18754,7 @@
       "RRU": 4.0,
       "AAU": 3.0,
       "Filter": 4.0,
-      "Bracket": 2.0
+      "Bracket": 4.0
     }
   },
   "9270A": {
@@ -23334,7 +23346,7 @@
       "Feeder 1/2": 36.0,
       "FeederConnector 1/2": 24.0,
       "Antenna": 3.0,
-      "Bracket": 2.0
+      "Bracket": 4.0
     }
   },
   "4786B": {
@@ -23733,7 +23745,8 @@
       "FeederConnector 1/2": 52.0,
       "Antenna": 3.0,
       "FeederConnector 7/8": 24.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 2.0
     }
   },
   "B01847": {
@@ -25178,6 +25191,7 @@
       "FeederConnector 7/8": 8.0,
       "Filter": 3.0,
       "Combiner": 2.0,
+      "Bracket": 2.0,
       "Security Bar": 1.0
     }
   },
@@ -26409,7 +26423,8 @@
       "RRU": 3.0,
       "AAU": 1.0,
       "Antenna": 2.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 1.0
     }
   },
   "7448B": {
@@ -28361,7 +28376,8 @@
       "AAU": 2.0,
       "Antenna": 3.0,
       "Feeder 7/8": 400.0,
-      "FeederConnector 7/8": 20.0
+      "FeederConnector 7/8": 20.0,
+      "Bracket": 2.0
     }
   },
   "1896B": {
@@ -29612,7 +29628,7 @@
       "Circuit Breaker": 2.0,
       "RRU": 6.0,
       "Antenna": 3.0,
-      "Bracket": 2.0
+      "Bracket": 4.0
     }
   },
   "2105A": {
@@ -34023,7 +34039,8 @@
     },
     "quantities": {
       "BBU Cards": 1.0,
-      "AAU": 1.0
+      "AAU": 1.0,
+      "Bracket": 1.0
     }
   },
   "9256B": {
@@ -34377,7 +34394,8 @@
       "Battery": 5.0,
       "BBU Cards": 1.0,
       "RRU": 1.0,
-      "AAU": 1.0
+      "AAU": 1.0,
+      "Bracket": 1.0
     }
   },
   "4330B": {
@@ -34396,7 +34414,8 @@
       "BBU Cards": 1.0,
       "RRU": 1.0,
       "AAU": 1.0,
-      "ODCPD": 1.0
+      "ODCPD": 1.0,
+      "Bracket": 1.0
     }
   },
   "4954C": {
@@ -34584,7 +34603,8 @@
     },
     "quantities": {
       "BBU Cards": 1.0,
-      "AAU": 1.0
+      "AAU": 1.0,
+      "Bracket": 1.0
     }
   },
   "1689C": {
@@ -34691,7 +34711,8 @@
     },
     "quantities": {
       "BBU Cards": 2.0,
-      "AAU": 3.0
+      "AAU": 3.0,
+      "Bracket": 1.0
     }
   },
   "7355B": {
@@ -35066,7 +35087,8 @@
     "quantities": {
       "BBU Cards": 1.0,
       "RRU": 1.0,
-      "AAU": 1.0
+      "AAU": 1.0,
+      "Bracket": 1.0
     }
   },
   "K00700": {
@@ -35224,6 +35246,7 @@
       "FeederConnector 7/8": 24.0,
       "Post": 1.0,
       "RRU Cage": 1.0,
+      "Bracket": 2.0,
       "Security Bar": 1.0
     }
   },
@@ -38098,6 +38121,7 @@
       "Feeder 7/8": 250.0,
       "FeederConnector 7/8": 20.0,
       "Filter": 1.0,
+      "Bracket": 2.0,
       "Security Bar": 1.0
     }
   },
@@ -39694,7 +39718,7 @@
       "FeederConnector 1/2": 16.0,
       "Antenna": 1.0,
       "Filter": 3.0,
-      "Bracket": 2.0,
+      "Bracket": 3.0,
       "Security Bar": 1.0
     }
   },
@@ -40261,6 +40285,7 @@
       "RRU": 3.0,
       "AAU": 2.0,
       "Antenna": 3.0,
+      "Bracket": 3.0,
       "Security Bar": 1.0
     }
   },
@@ -40305,7 +40330,7 @@
       "RRU": 4.0,
       "AAU": 2.0,
       "Antenna": 1.0,
-      "Bracket": 3.0,
+      "Bracket": 4.0,
       "Security Bar": 1.0
     }
   },
@@ -40374,7 +40399,8 @@
       "Circuit Breaker": 2.0,
       "RRU": 5.0,
       "AAU": 3.0,
-      "Antenna": 3.0
+      "Antenna": 3.0,
+      "Bracket": 2.0
     }
   },
   "B02625": {
@@ -41259,7 +41285,8 @@
       "Feeder 1/2": 240.0,
       "FeederConnector 1/2": 24.0,
       "Antenna": 3.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 3.0
     }
   },
   "1821B": {
@@ -41470,6 +41497,7 @@
       "Antenna": 3.0,
       "Filter": 3.0,
       "Post": 1.0,
+      "Bracket": 2.0,
       "Security Bar": 1.0
     }
   },
@@ -41511,7 +41539,8 @@
       "BBU Cards": 2.0,
       "Circuit Breaker": 1.0,
       "RRU": 2.0,
-      "AAU": 1.0
+      "AAU": 1.0,
+      "Bracket": 1.0
     }
   },
   "S00479": {
@@ -41977,7 +42006,8 @@
       "RRU": 4.0,
       "AAU": 3.0,
       "Antenna": 3.0,
-      "Filter": 4.0
+      "Filter": 4.0,
+      "Bracket": 3.0
     }
   },
   "7390A": {
@@ -44125,7 +44155,7 @@
       "RRU": 6.0,
       "AAU": 2.0,
       "Filter": 3.0,
-      "Bracket": 3.0
+      "Bracket": 5.0
     }
   },
   "K00825": {
@@ -46908,7 +46938,8 @@
       "RRU": 3.0,
       "AAU": 3.0,
       "Antenna": 3.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 3.0
     }
   },
   "W01488": {
@@ -47859,7 +47890,8 @@
       "Circuit Breaker": 2.0,
       "RRU": 2.0,
       "AAU": 2.0,
-      "Antenna": 2.0
+      "Antenna": 2.0,
+      "Bracket": 2.0
     }
   },
   "2008A": {
@@ -48768,7 +48800,8 @@
       "BBU Cards": 1.0,
       "Circuit Breaker": 1.0,
       "RRU": 2.0,
-      "AAU": 1.0
+      "AAU": 1.0,
+      "Bracket": 1.0
     }
   },
   "3974B": {
@@ -48985,7 +49018,8 @@
       "AAU": 3.0,
       "Feeder 1/2": 70.0,
       "FeederConnector 1/2": 28.0,
-      "Antenna": 1.0
+      "Antenna": 1.0,
+      "Bracket": 3.0
     }
   },
   "7108A": {
@@ -49784,7 +49818,7 @@
       "Feeder 1/2": 50.0,
       "FeederConnector 1/2": 20.0,
       "Filter": 3.0,
-      "Bracket": 1.0
+      "Bracket": 3.0
     }
   },
   "7388B": {
@@ -51729,7 +51763,7 @@
       "AAU": 1.0,
       "PadPower": 1.0,
       "Filter": 4.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "7262B": {
@@ -56573,7 +56607,8 @@
       "AAU": 1.0,
       "ODCPD": 3.0,
       "Antenna": 1.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 1.0
     }
   },
   "W00859": {
@@ -58037,6 +58072,7 @@
       "AAU": 2.0,
       "Antenna": 2.0,
       "Filter": 3.0,
+      "Bracket": 2.0,
       "Security Bar": 1.0
     }
   },
@@ -58641,7 +58677,8 @@
       "AAU": 3.0,
       "FeederConnector 1/2": 6.0,
       "Antenna": 3.0,
-      "FeederConnector 7/8": 8.0
+      "FeederConnector 7/8": 8.0,
+      "Bracket": 3.0
     }
   },
   "W00419": {
@@ -61486,7 +61523,8 @@
       "ODCPD": 3.0,
       "Antenna": 2.0,
       "FeederConnector 7/8": 8.0,
-      "Filter": 4.0
+      "Filter": 4.0,
+      "Bracket": 2.0
     }
   },
   "4164C": {
@@ -61658,7 +61696,7 @@
       "AAU": 3.0,
       "ODCPD": 7.0,
       "Filter": 4.0,
-      "Bracket": 3.0
+      "Bracket": 4.0
     }
   },
   "4815C": {
@@ -63327,7 +63365,8 @@
       "AAU": 2.0,
       "Feeder 7/8": 560.0,
       "FeederConnector 7/8": 28.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 2.0
     }
   },
   "7518A": {
@@ -64366,7 +64405,8 @@
       "RRU": 2.0,
       "AAU": 1.0,
       "Antenna": 1.0,
-      "FeederConnector 7/8": 10.0
+      "FeederConnector 7/8": 10.0,
+      "Bracket": 1.0
     }
   },
   "1075B": {
@@ -65743,7 +65783,8 @@
       "DCPD": 1.0,
       "Circuit Breaker": 2.0,
       "AAU": 3.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 3.0
     }
   },
   "2772A": {
@@ -66107,7 +66148,8 @@
       "DCPD": 1.0,
       "Circuit Breaker": 2.0,
       "RRU": 1.0,
-      "AAU": 2.0
+      "AAU": 2.0,
+      "Bracket": 1.0
     }
   },
   "3409B": {
@@ -67624,7 +67666,8 @@
     "quantities": {
       "Battery": 4.0,
       "BBU Cards": 2.0,
-      "AAU": 3.0
+      "AAU": 3.0,
+      "Bracket": 3.0
     }
   },
   "3465B": {
@@ -72728,7 +72771,7 @@
       "Circuit Breaker": 2.0,
       "RRU": 5.0,
       "Antenna": 3.0,
-      "Bracket": 3.0,
+      "Bracket": 6.0,
       "Security Bar": 1.0
     }
   },
@@ -73857,7 +73900,8 @@
       "RRU": 3.0,
       "AAU": 2.0,
       "Antenna": 2.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 2.0
     }
   },
   "B01166": {
@@ -74557,7 +74601,8 @@
       "Battery": 2.0,
       "BBU Cards": 2.0,
       "RRU": 2.0,
-      "AAU": 1.0
+      "AAU": 1.0,
+      "Bracket": 1.0
     }
   },
   "7387B": {
@@ -75687,6 +75732,7 @@
       "Feeder 1 5/8": 420.0,
       "FeederConnector 1 5/8": 14.0,
       "Filter": 3.0,
+      "Bracket": 2.0,
       "Security Bar": 1.0
     }
   },
@@ -75778,6 +75824,7 @@
       "Feeder 7/8": 1200.0,
       "FeederConnector 7/8": 60.0,
       "Combiner": 3.0,
+      "Bracket": 3.0,
       "Security Bar": 1.0
     }
   },
@@ -77024,6 +77071,7 @@
       "Feeder 7/8": 120.0,
       "FeederConnector 7/8": 40.0,
       "Filter": 3.0,
+      "Bracket": 1.0,
       "Security Bar": 1.0
     }
   },
@@ -79755,7 +79803,8 @@
       "BBU Cards": 2.0,
       "AAU": 3.0,
       "ODCPD": 3.0,
-      "Antenna": 3.0
+      "Antenna": 3.0,
+      "Bracket": 3.0
     }
   },
   "1507B": {
@@ -81269,7 +81318,8 @@
       "DCPD": 1.0,
       "Circuit Breaker": 2.0,
       "RRU": 1.0,
-      "AAU": 2.0
+      "AAU": 2.0,
+      "Bracket": 1.0
     }
   },
   "4753A": {
@@ -82374,7 +82424,7 @@
       "RRU": 4.0,
       "AAU": 2.0,
       "Antenna": 2.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "7153B": {
@@ -82628,7 +82678,8 @@
       "Circuit Breaker": 2.0,
       "RRU": 1.0,
       "AAU": 2.0,
-      "Antenna": 1.0
+      "Antenna": 1.0,
+      "Bracket": 1.0
     }
   },
   "7056A": {
@@ -83980,7 +84031,8 @@
       "RRU": 3.0,
       "AAU": 2.0,
       "Antenna": 1.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 2.0
     }
   },
   "3365A5": {
@@ -85465,7 +85517,8 @@
       "Feeder 1/2": 50.0,
       "FeederConnector 1/2": 20.0,
       "Antenna": 1.0,
-      "Filter": 4.0
+      "Filter": 4.0,
+      "Bracket": 1.0
     }
   },
   "7069C": {
@@ -86256,7 +86309,8 @@
     "quantities": {
       "BBU Cards": 2.0,
       "AAU": 3.0,
-      "ODCPD": 3.0
+      "ODCPD": 3.0,
+      "Bracket": 3.0
     }
   },
   "7117B": {
@@ -87048,7 +87102,8 @@
       "Power Module": 2.0,
       "BBU Cards": 1.0,
       "Circuit Breaker": 3.0,
-      "RRU": 3.0
+      "RRU": 3.0,
+      "Bracket": 1.0
     }
   },
   "7123B": {
@@ -87091,7 +87146,7 @@
       "AAU": 2.0,
       "Feeder 1/2": 42.0,
       "FeederConnector 1/2": 16.0,
-      "Bracket": 2.0
+      "Bracket": 4.0
     }
   },
   "7263C": {
@@ -87373,7 +87428,8 @@
       "AAU": 3.0,
       "Feeder 1/2": 270.0,
       "FeederConnector 1/2": 50.0,
-      "Filter": 1.0
+      "Filter": 1.0,
+      "Bracket": 2.0
     }
   },
   "7303A": {
@@ -88434,7 +88490,7 @@
     "quantities": {
       "BBU Cards": 2.0,
       "AAU": 3.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "7085B1": {
@@ -90584,6 +90640,7 @@
     },
     "quantities": {
       "Battery": 1.0,
+      "BBU Cards": 1.0,
       "RRU": 4.0,
       "Antenna": 1.0,
       "Feeder 7/8": 300.0,
@@ -92459,7 +92516,8 @@
       "RRU": 2.0,
       "AAU": 2.0,
       "Antenna": 2.0,
-      "FeederConnector 7/8": 32.0
+      "FeederConnector 7/8": 32.0,
+      "Bracket": 2.0
     }
   },
   "1385B": {
@@ -92695,6 +92753,7 @@
       "BBU Cards": 2.0,
       "RRU": 1.0,
       "AAU": 2.0,
+      "Bracket": 1.0,
       "Security Bar": 1.0
     }
   },
@@ -92737,7 +92796,8 @@
       "RRU": 4.0,
       "AAU": 1.0,
       "FeederConnector 7/8": 4.0,
-      "Filter": 4.0
+      "Filter": 4.0,
+      "Bracket": 1.0
     }
   },
   "3303B": {
@@ -93409,7 +93469,8 @@
       "RRU": 5.0,
       "Antenna": 1.0,
       "FeederConnector 7/8": 2.0,
-      "Filter": 4.0
+      "Filter": 4.0,
+      "Bracket": 1.0
     }
   },
   "3931A": {
@@ -96121,7 +96182,8 @@
       "DCPD": 1.0,
       "Circuit Breaker": 5.0,
       "RRU": 3.0,
-      "AAU": 2.0
+      "AAU": 2.0,
+      "Bracket": 2.0
     }
   },
   "9508A": {
@@ -100107,7 +100169,7 @@
       "AAU": 3.0,
       "Antenna": 3.0,
       "Filter": 3.0,
-      "Bracket": 3.0
+      "Bracket": 6.0
     }
   },
   "9518A": {
@@ -102093,7 +102155,8 @@
       "RRU": 4.0,
       "Antenna": 3.0,
       "FeederConnector 7/8": 16.0,
-      "Filter": 4.0
+      "Filter": 4.0,
+      "Bracket": 3.0
     }
   },
   "W01182": {
@@ -102232,6 +102295,7 @@
       "RRU": 3.0,
       "AAU": 1.0,
       "Filter": 3.0,
+      "Bracket": 1.0,
       "Security Bar": 1.0
     }
   },
@@ -105641,7 +105705,8 @@
       "AAU": 3.0,
       "Antenna": 3.0,
       "FeederConnector 7/8": 12.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 3.0
     }
   },
   "1395A": {
@@ -105771,7 +105836,8 @@
       "Feeder 1/2": 18.0,
       "FeederConnector 1/2": 12.0,
       "Antenna": 2.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 2.0
     }
   },
   "9010A": {
@@ -105791,7 +105857,7 @@
       "RRU": 3.0,
       "AAU": 1.0,
       "Filter": 3.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "9014A": {
@@ -105813,7 +105879,7 @@
       "AAU": 2.0,
       "ODCPD": 3.0,
       "Filter": 3.0,
-      "Bracket": 2.0,
+      "Bracket": 4.0,
       "Security Bar": 1.0
     }
   },
@@ -108512,7 +108578,8 @@
       "DCPD": 1.0,
       "Circuit Breaker": 2.0,
       "RRU": 6.0,
-      "Antenna": 3.0
+      "Antenna": 3.0,
+      "Bracket": 3.0
     }
   },
   "4083C": {
@@ -109596,7 +109663,8 @@
       "Feeder 7/8": 120.0,
       "FeederConnector 7/8": 4.0,
       "Filter": 3.0,
-      "Combiner": 2.0
+      "Combiner": 2.0,
+      "Bracket": 3.0
     }
   },
   "C00091": {
@@ -112744,7 +112812,8 @@
       "AAU": 3.0,
       "Feeder 1/2": 60.0,
       "FeederConnector 1/2": 24.0,
-      "Antenna": 1.0
+      "Antenna": 1.0,
+      "Bracket": 3.0
     }
   },
   "7345B": {
@@ -116529,7 +116598,8 @@
       "RRU": 3.0,
       "AAU": 1.0,
       "Feeder 1/2": 10.0,
-      "FeederConnector 1/2": 4.0
+      "FeederConnector 1/2": 4.0,
+      "Bracket": 1.0
     }
   },
   "K00561": {
@@ -116761,7 +116831,7 @@
       "RRU": 5.0,
       "AAU": 2.0,
       "Antenna": 1.0,
-      "Bracket": 1.0
+      "Bracket": 3.0
     }
   },
   "4801A": {
@@ -117175,6 +117245,7 @@
     },
     "quantities": {
       "Battery": 5.0,
+      "BBU Cards": 1.0,
       "DCPD": 1.0,
       "Circuit Breaker": 2.0,
       "RRU": 8.0,
@@ -121440,7 +121511,8 @@
       "BBU Cards": 2.0,
       "RRU": 3.0,
       "AAU": 3.0,
-      "Antenna": 3.0
+      "Antenna": 3.0,
+      "Bracket": 3.0
     }
   },
   "7682B": {
@@ -123049,7 +123121,8 @@
       "Feeder 1/2": 130.0,
       "FeederConnector 1/2": 28.0,
       "Antenna": 3.0,
-      "Filter": 4.0
+      "Filter": 4.0,
+      "Bracket": 3.0
     }
   },
   "3725A": {
@@ -123168,7 +123241,8 @@
       "Circuit Breaker": 4.0,
       "RRU": 6.0,
       "AAU": 1.0,
-      "Antenna": 1.0
+      "Antenna": 1.0,
+      "Bracket": 1.0
     }
   },
   "3411A": {
@@ -123347,7 +123421,8 @@
       "Feeder 7/8": 100.0,
       "FeederConnector 7/8": 4.0,
       "Combiner": 2.0,
-      "Post": 1.0
+      "Post": 1.0,
+      "Bracket": 2.0
     }
   },
   "B00669": {
@@ -124603,6 +124678,7 @@
       "Feeder 1/2": 12.0,
       "FeederConnector 1/2": 8.0,
       "Filter": 3.0,
+      "Bracket": 1.0,
       "Security Bar": 1.0
     }
   },
@@ -125309,6 +125385,7 @@
       "FeederConnector 7/8": 16.0,
       "Filter": 3.0,
       "Combiner": 2.0,
+      "Bracket": 2.0,
       "Security Bar": 1.0
     }
   },
@@ -125918,7 +125995,8 @@
       "Circuit Breaker": 1.0,
       "RRU": 1.0,
       "AAU": 3.0,
-      "PadPower": 2.0
+      "PadPower": 2.0,
+      "Bracket": 2.0
     }
   },
   "1228A": {
@@ -126430,7 +126508,8 @@
       "RRU": 6.0,
       "AAU": 3.0,
       "Antenna": 3.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 3.0
     }
   },
   "2048A": {
@@ -126695,7 +126774,8 @@
       "BBU Cards": 2.0,
       "Circuit Breaker": 2.0,
       "RRU": 2.0,
-      "AAU": 2.0
+      "AAU": 2.0,
+      "Bracket": 2.0
     }
   },
   "4214A": {
@@ -126891,7 +126971,8 @@
       "RRU": 1.0,
       "AAU": 2.0,
       "Antenna": 3.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 2.0
     }
   },
   "4286A": {
@@ -127596,7 +127677,7 @@
       "Circuit Breaker": 2.0,
       "RRU": 3.0,
       "AAU": 2.0,
-      "Bracket": 2.0
+      "Bracket": 4.0
     }
   },
   "3508C": {
@@ -130126,7 +130207,8 @@
       "RRU": 3.0,
       "AAU": 2.0,
       "ODCPD": 2.0,
-      "Antenna": 2.0
+      "Antenna": 2.0,
+      "Bracket": 2.0
     }
   },
   "2650A": {
@@ -130669,7 +130751,7 @@
       "Feeder 1/2": 80.0,
       "FeederConnector 1/2": 32.0,
       "Filter": 3.0,
-      "Bracket": 1.0,
+      "Bracket": 3.0,
       "Security Bar": 1.0
     }
   },
@@ -131746,6 +131828,7 @@
       "Feeder 1/2": 30.0,
       "FeederConnector 1/2": 12.0,
       "Antenna": 3.0,
+      "Bracket": 3.0,
       "Security Bar": 1.0
     }
   },
@@ -131852,6 +131935,7 @@
       "RRU": 3.0,
       "Antenna": 3.0,
       "Filter": 3.0,
+      "Bracket": 10.0,
       "Security Bar": 1.0
     }
   },
@@ -132000,7 +132084,8 @@
       "Circuit Breaker": 2.0,
       "RRU": 3.0,
       "AAU": 2.0,
-      "Antenna": 3.0
+      "Antenna": 3.0,
+      "Bracket": 2.0
     }
   },
   "1761B": {
@@ -132269,7 +132354,8 @@
       "BBU Cards": 2.0,
       "Circuit Breaker": 3.0,
       "RRU": 3.0,
-      "AAU": 2.0
+      "AAU": 2.0,
+      "Bracket": 2.0
     }
   },
   "4973B": {
@@ -133876,7 +133962,8 @@
       "RRU": 3.0,
       "AAU": 1.0,
       "Feeder 1/2": 40.0,
-      "FeederConnector 1/2": 16.0
+      "FeederConnector 1/2": 16.0,
+      "Bracket": 1.0
     }
   },
   "4820B": {
@@ -133979,7 +134066,7 @@
       "AAU": 2.0,
       "Feeder 1/2": 30.0,
       "FeederConnector 1/2": 12.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "4002A": {
@@ -134070,7 +134157,7 @@
       "FeederConnector 1/2": 24.0,
       "PadPower": 6.0,
       "Filter": 3.0,
-      "Bracket": 1.0
+      "Bracket": 3.0
     }
   },
   "B00681": {
@@ -134969,7 +135056,8 @@
       "Circuit Breaker": 3.0,
       "RRU": 6.0,
       "AAU": 2.0,
-      "Antenna": 3.0
+      "Antenna": 3.0,
+      "Bracket": 2.0
     }
   },
   "A00207": {
@@ -135660,7 +135748,7 @@
       "Circuit Breaker": 2.0,
       "RRU": 2.0,
       "AAU": 2.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "1787B": {
@@ -135703,7 +135791,7 @@
       "AAU": 3.0,
       "Antenna": 1.0,
       "Filter": 3.0,
-      "Bracket": 2.0
+      "Bracket": 3.0
     }
   },
   "4030A": {
@@ -136394,7 +136482,8 @@
       "FeederConnector 1/2": 32.0,
       "Antenna": 1.0,
       "FeederConnector 1 5/8": 32.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 1.0
     }
   },
   "3245A": {
@@ -136888,7 +136977,7 @@
       "Feeder 1/2": 60.0,
       "FeederConnector 1/2": 24.0,
       "Antenna": 1.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "B02274": {
@@ -137175,7 +137264,8 @@
       "DCPD": 1.0,
       "Circuit Breaker": 3.0,
       "RRU": 3.0,
-      "AAU": 2.0
+      "AAU": 2.0,
+      "Bracket": 1.0
     }
   },
   "4555D": {
@@ -137543,7 +137633,7 @@
       "FeederConnector 1/2": 44.0,
       "Antenna": 1.0,
       "Filter": 3.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "4758B": {
@@ -137645,7 +137735,8 @@
       "AAU": 3.0,
       "Feeder 1/2": 30.0,
       "FeederConnector 1/2": 12.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 3.0
     }
   },
   "1470B": {
@@ -138656,7 +138747,8 @@
       "AAU": 2.0,
       "Feeder 1/2": 40.0,
       "FeederConnector 1/2": 16.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 2.0
     }
   },
   "4427D": {
@@ -140913,7 +141005,8 @@
       "RRU": 1.0,
       "AAU": 2.0,
       "Feeder 1/2": 20.0,
-      "FeederConnector 1/2": 8.0
+      "FeederConnector 1/2": 8.0,
+      "Bracket": 2.0
     }
   },
   "4550C": {
@@ -140953,7 +141046,7 @@
       "Feeder 1/2": 100.0,
       "FeederConnector 1/2": 48.0,
       "Filter": 3.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "4049A": {
@@ -141564,7 +141657,7 @@
       "AAU": 2.0,
       "Antenna": 1.0,
       "Filter": 3.0,
-      "Bracket": 2.0
+      "Bracket": 4.0
     }
   },
   "3295A1": {
@@ -141814,6 +141907,7 @@
       "AAU": 2.0,
       "Feeder 1/2": 100.0,
       "FeederConnector 1/2": 28.0,
+      "Bracket": 2.0,
       "Security Bar": 1.0
     }
   },
@@ -142390,7 +142484,8 @@
       "BBU Cards": 2.0,
       "Circuit Breaker": 1.0,
       "RRU": 2.0,
-      "AAU": 1.0
+      "AAU": 1.0,
+      "Bracket": 1.0
     }
   },
   "1863A": {
@@ -142642,7 +142737,7 @@
       "ODCPD": 2.0,
       "Antenna": 3.0,
       "Filter": 3.0,
-      "Bracket": 4.0,
+      "Bracket": 5.0,
       "Security Bar": 1.0
     }
   },
@@ -142838,7 +142933,7 @@
       "Feeder 1/2": 40.0,
       "FeederConnector 1/2": 16.0,
       "Antenna": 1.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "4168A": {
@@ -143631,7 +143726,8 @@
       "Feeder 1/2": 92.0,
       "FeederConnector 1/2": 48.0,
       "ODCPD": 1.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 2.0
     }
   },
   "X00050": {
@@ -144339,7 +144435,8 @@
       "AAU": 2.0,
       "Feeder 1/2": 48.0,
       "FeederConnector 1/2": 32.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 2.0
     }
   },
   "4230C": {
@@ -144916,7 +145013,7 @@
       "Circuit Breaker": 2.0,
       "AAU": 3.0,
       "ODCPD": 1.0,
-      "Bracket": 2.0
+      "Bracket": 4.0
     }
   },
   "4137B": {
@@ -145166,7 +145263,8 @@
       "RRU": 1.0,
       "AAU": 2.0,
       "Feeder 1/2": 60.0,
-      "FeederConnector 1/2": 24.0
+      "FeederConnector 1/2": 24.0,
+      "Bracket": 2.0
     }
   },
   "1933B": {
@@ -145296,7 +145394,7 @@
       "AAU": 1.0,
       "Feeder 1/2": 40.0,
       "FeederConnector 1/2": 16.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "4349A": {
@@ -145965,7 +146063,7 @@
       "Feeder 1/2": 86.0,
       "FeederConnector 1/2": 44.0,
       "Filter": 3.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "1156A": {
@@ -146280,7 +146378,8 @@
       "AAU": 3.0,
       "Feeder 1/2": 168.0,
       "FeederConnector 1/2": 72.0,
-      "Filter": 6.0
+      "Filter": 6.0,
+      "Bracket": 3.0
     }
   },
   "1110A": {
@@ -146518,7 +146617,8 @@
       "Feeder 1/2": 126.0,
       "FeederConnector 1/2": 60.0,
       "FeederConnector 7/8": 24.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 3.0
     }
   },
   "4132A": {
@@ -146539,7 +146639,8 @@
       "Circuit Breaker": 3.0,
       "RRU": 3.0,
       "AAU": 2.0,
-      "ODCPD": 2.0
+      "ODCPD": 2.0,
+      "Bracket": 2.0
     }
   },
   "1620B": {
@@ -146745,7 +146846,8 @@
       "RRU": 1.0,
       "AAU": 2.0,
       "Feeder 1/2": 12.0,
-      "FeederConnector 1/2": 8.0
+      "FeederConnector 1/2": 8.0,
+      "Bracket": 2.0
     }
   },
   "1641B": {
@@ -146894,7 +146996,7 @@
       "Feeder 1/2": 36.0,
       "FeederConnector 1/2": 24.0,
       "Filter": 3.0,
-      "Bracket": 1.0
+      "Bracket": 3.0
     }
   },
   "4170A": {
@@ -147810,6 +147912,7 @@
       "FeederConnector 1/2": 72.0,
       "Antenna": 1.0,
       "Combiner": 1.0,
+      "Bracket": 1.0,
       "Security Bar": 1.0
     }
   },
@@ -148111,7 +148214,8 @@
       "FeederConnector 1/2": 20.0,
       "Antenna": 3.0,
       "Filter": 4.0,
-      "Combiner": 2.0
+      "Combiner": 2.0,
+      "Bracket": 3.0
     }
   },
   "1125A": {
@@ -149232,6 +149336,7 @@
       "Circuit Breaker": 2.0,
       "AAU": 3.0,
       "Filter": 3.0,
+      "Bracket": 3.0,
       "Security Bar": 1.0
     }
   },
@@ -149912,7 +150017,8 @@
       "AAU": 3.0,
       "Feeder 1/2": 120.0,
       "FeederConnector 1/2": 18.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 3.0
     }
   },
   "3247C": {
@@ -150674,7 +150780,7 @@
       "Circuit Breaker": 1.0,
       "RRU": 1.0,
       "AAU": 2.0,
-      "Bracket": 2.0
+      "Bracket": 4.0
     }
   },
   "4543B": {
@@ -151130,7 +151236,8 @@
       "Circuit Breaker": 1.0,
       "RRU": 1.0,
       "AAU": 2.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 3.0
     }
   },
   "4527D": {
@@ -151790,7 +151897,8 @@
     },
     "quantities": {
       "BBU Cards": 2.0,
-      "AAU": 3.0
+      "AAU": 3.0,
+      "Bracket": 1.0
     }
   },
   "A00126": {
@@ -151872,7 +151980,8 @@
       "BBU Cards": 3.0,
       "Circuit Breaker": 1.0,
       "RRU": 1.0,
-      "AAU": 2.0
+      "AAU": 2.0,
+      "Bracket": 2.0
     }
   },
   "4004D": {
@@ -151890,7 +151999,8 @@
       "Circuit Breaker": 1.0,
       "RRU": 1.0,
       "AAU": 2.0,
-      "Filter": 3.0
+      "Filter": 3.0,
+      "Bracket": 2.0
     }
   },
   "1206B": {
@@ -152239,7 +152349,7 @@
       "Circuit Breaker": 1.0,
       "RRU": 1.0,
       "AAU": 2.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "4357C": {
@@ -152823,7 +152933,8 @@
       "RRU": 3.0,
       "AAU": 3.0,
       "Filter": 3.0,
-      "Combiner": 6.0
+      "Combiner": 6.0,
+      "Bracket": 3.0
     }
   },
   "4296C": {
@@ -153239,7 +153350,7 @@
       "FeederConnector 7/8": 8.0,
       "Filter": 3.0,
       "Combiner": 2.0,
-      "Bracket": 2.0
+      "Bracket": 4.0
     }
   },
   "2673B": {
@@ -154373,7 +154484,7 @@
       "Battery": 4.0,
       "BBU Cards": 2.0,
       "AAU": 3.0,
-      "Bracket": 1.0
+      "Bracket": 2.0
     }
   },
   "1634B": {
@@ -156785,7 +156896,8 @@
       "BBU Cards": 2.0,
       "Circuit Breaker": 2.0,
       "RRU": 3.0,
-      "AAU": 1.0
+      "AAU": 1.0,
+      "Bracket": 1.0
     }
   },
   "4705B": {
@@ -160264,7 +160376,8 @@
       "DCPD": 1.0,
       "Circuit Breaker": 2.0,
       "RRU": 1.0,
-      "AAU": 2.0
+      "AAU": 2.0,
+      "Bracket": 2.0
     }
   },
   "4373C": {

@@ -87,11 +87,43 @@ def apply_round(value, round_mode):
     return value
 
 
+def normalize_lookup_key(value):
+
+    return (
+        str(value)
+        .strip()
+        .replace("_", "")
+        .replace("/", "")
+        .replace(" ", "")
+        .lower()
+    )
+
+
 def calculate_site(site_data, rules):
 
     source_quantities = site_data["quantities"]
 
     calculated = {}
+
+    working_quantities = dict(source_quantities)
+
+    # build a normalized lookup map to allow semantic-safe key matching
+    normalized_working_lookup = {}
+
+    for k, v in working_quantities.items():
+
+        normalized_working_lookup[
+            normalize_lookup_key(k)
+        ] = v
+
+    def get_quantity(key):
+
+        normalized_key = normalize_lookup_key(key)
+
+        return normalized_working_lookup.get(
+            normalized_key,
+            0
+        )
 
     for rule in rules:
 
@@ -132,25 +164,50 @@ def calculate_site(site_data, rules):
 
         elif calc_type == "DIVIDE_BY_ITEMKEY":
 
+            # source_qty must come from original normalized quantities
+            # to avoid contamination from previously calculated run counts
             source_qty = source_quantities.get(
                 source_item_key,
                 0
             )
 
-            divisor_qty = source_quantities.get(
-                condition_item_key,
-                0
+            divisor_qty = get_quantity(
+                condition_item_key
             )
 
-            if divisor_qty > 0:
+            result = 0
 
-                result = source_qty / divisor_qty
+            # Safeguard: if there's no feeder length (source_qty) or no connectors (divisor_qty),
+            # do not produce runs.
+            if source_qty <= 0:
 
-            if threshold is not None:
+                result = 0
 
-                if result < float(threshold):
+            elif divisor_qty <= 0:
 
-                    result = 0
+                result = 0
+
+            else:
+
+                total_runs = divisor_qty / 2
+
+                if total_runs > 0:
+
+                    average = source_qty / total_runs
+
+                    if threshold is not None:
+
+                        if average >= float(threshold):
+
+                            result = total_runs
+
+                        else:
+
+                            result = 0
+
+                    else:
+
+                        result = total_runs
 
             result = apply_round(
                 result,
@@ -163,9 +220,8 @@ def calculate_site(site_data, rules):
 
         elif calc_type == "CONDITIONAL_SUM_BY_ITEMKEY":
 
-            condition_qty = source_quantities.get(
-                condition_item_key,
-                0
+            condition_qty = get_quantity(
+                condition_item_key
             )
 
             if condition_type == "GT":
@@ -176,9 +232,8 @@ def calculate_site(site_data, rules):
 
                 else:
 
-                    result = source_quantities.get(
-                        source_item_key,
-                        0
+                    result = get_quantity(
+                        source_item_key
                     )
 
         # =====================================================
@@ -187,14 +242,12 @@ def calculate_site(site_data, rules):
 
         elif calc_type == "CONDITIONAL_DIVIDE":
 
-            source_qty = source_quantities.get(
-                source_item_key,
-                0
+            source_qty = get_quantity(
+                source_item_key
             )
 
-            condition_qty = source_quantities.get(
-                condition_item_key,
-                0
+            condition_qty = get_quantity(
+                condition_item_key
             )
 
             if condition_type == "SUM_GT":
@@ -206,6 +259,13 @@ def calculate_site(site_data, rules):
                         result = source_qty / float(divisor)
 
         calculated[item_key] = result
+        working_quantities[item_key] = result
+
+        # keep normalized lookup in sync so downstream rules can find
+        # this calculated value using semantic key matching
+        normalized_working_lookup[
+            normalize_lookup_key(item_key)
+        ] = result
 
         print(
             f"{item_key} "
