@@ -246,17 +246,27 @@ def calculate_site(site_data, rules):
                 source_item_key
             )
 
-            condition_qty = get_quantity(
-                condition_item_key
+            condition_qty = source_quantities.get(
+                condition_item_key,
+                0
             )
 
-            if condition_type == "SUM_GT":
+            result = 0
 
-                if source_qty + condition_qty > float(condition_value):
+            # feeder quantity must come from original normalized quantities
+            # and connector quantity must be present to generate runs
+            if condition_qty > 0:
+
+                if source_qty > 0:
 
                     if divisor and float(divisor) > 0:
 
                         result = source_qty / float(divisor)
+
+            result = apply_round(
+                result,
+                round_mode
+            )
 
         calculated[item_key] = result
         working_quantities[item_key] = result

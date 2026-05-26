@@ -359,14 +359,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212453.0",
         "LineItemText": "Combiners installation Qty(3-6) per Site",
         "ItemKey": "Combiner",
@@ -1407,14 +1399,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -2410,14 +2394,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000597822.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
         "FinalPRQty": 1
       },
       {
@@ -3472,14 +3448,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 4.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589387.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(14))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 14.0,
         "FinalPRQty": 1
       },
       {
@@ -4605,14 +4573,6 @@
         "ItemKey": "BBU Cards",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -6997,14 +6957,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -8055,14 +8007,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
         "FinalPRQty": 1
       },
       {
@@ -11001,14 +10945,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -11499,14 +11435,6 @@
         "ItemKey": "Post",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589387.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(14))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 14.0,
         "FinalPRQty": 1
       },
       {
@@ -15849,14 +15777,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000597827.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -15992,14 +15912,6 @@
         "ItemKey": "ODCPD",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000597824.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       }
     ]
@@ -16393,14 +16305,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       }
     ]
@@ -17149,14 +17053,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       }
     ]
@@ -19103,14 +18999,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589390.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(19-24))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 22.0,
         "FinalPRQty": 1
       }
     ]
@@ -21484,14 +21372,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -24226,14 +24106,6 @@
         "ItemKey": "DCPD",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -28471,14 +28343,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589392.0",
         "LineItemText": "Combiners installation Qty(6-12) per Site",
         "ItemKey": "Combiner",
@@ -29283,14 +29147,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -32434,14 +32290,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212453.0",
         "LineItemText": "Combiners installation Qty(3-6) per Site",
         "ItemKey": "Combiner",
@@ -33573,14 +33421,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -37461,14 +37301,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000597827.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212448.0",
         "LineItemText": "Filter installation  Qty(4-6)",
         "ItemKey": "Filter",
@@ -37551,14 +37383,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000597824.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -40493,14 +40317,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -42554,14 +42370,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -43021,14 +42829,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -43211,14 +43011,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000597822.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
         "FinalPRQty": 1
       },
       {
@@ -43567,14 +43359,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       }
     ]
@@ -62208,14 +61992,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -63203,14 +62979,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589389.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(18))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 18.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -63293,14 +63061,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -64193,14 +63953,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       }
     ]
@@ -66517,14 +66269,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000597827.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589392.0",
         "LineItemText": "Combiners installation Qty(6-12) per Site",
         "ItemKey": "Combiner",
@@ -66735,14 +66479,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589391.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(25-30))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 26.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000233714.0",
         "LineItemText": "Combiners installation Qty(2)",
         "ItemKey": "Combiner",
@@ -66895,14 +66631,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -66947,14 +66675,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -67528,14 +67248,6 @@
         "ItemKey": "Security Bar",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -68165,14 +67877,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -69375,14 +69079,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -71061,14 +70757,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589387.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(14))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 14.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -71196,14 +70884,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589389.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(18))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 18.0,
         "FinalPRQty": 1
       }
     ]
@@ -71893,14 +71573,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -72383,14 +72055,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -72922,14 +72586,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -73574,14 +73230,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -73738,14 +73386,6 @@
         "ItemKey": "BBU Cards",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -74265,14 +73905,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 5.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       }
     ]
@@ -74910,14 +74542,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -77196,14 +76820,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -79391,14 +79007,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -80221,14 +79829,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -80555,14 +80155,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -80974,14 +80566,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589388.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(16))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 16.0,
         "FinalPRQty": 1
       },
       {
@@ -81431,22 +81015,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 7.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000597823.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -82656,14 +82224,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -83610,14 +83170,6 @@
         "ItemKey": "Post",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -87963,14 +87515,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -88724,14 +88268,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -89364,14 +88900,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -89505,14 +89033,6 @@
         "MaterialCode": "350000589431.0",
         "LineItemText": "Circuit breaker expansion/replacement/dismantle without cable",
         "ItemKey": "Circuit Breaker",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
         "FinalPRQty": 1
@@ -90152,14 +89672,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       }
     ]
@@ -92321,14 +91833,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -93096,14 +92600,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000233713.0",
         "LineItemText": "Combiners installation Qty(1)",
         "ItemKey": "Combiner",
@@ -93186,14 +92682,6 @@
         "ItemKey": "Security Bar",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -95848,14 +95336,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -96153,14 +95633,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -99718,14 +99190,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -104732,14 +104196,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -105502,14 +104958,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000233714.0",
         "LineItemText": "Combiners installation Qty(2)",
         "ItemKey": "Combiner",
@@ -105706,14 +105154,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -106338,14 +105778,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212453.0",
         "LineItemText": "Combiners installation Qty(3-6) per Site",
         "ItemKey": "Combiner",
@@ -106404,14 +105836,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -106550,14 +105974,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       }
     ]
@@ -107036,14 +106452,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -107248,14 +106656,6 @@
         "ItemKey": "Security Bar",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -110229,14 +109629,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -111803,14 +111195,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -112025,14 +111409,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -114437,14 +113813,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000233714.0",
         "LineItemText": "Combiners installation Qty(2)",
         "ItemKey": "Combiner",
@@ -114609,14 +113977,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       }
     ]
@@ -115830,14 +115190,6 @@
         "ItemKey": "Feeder 1/2",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 6,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -119247,14 +118599,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -119990,14 +119334,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -120117,14 +119453,6 @@
         "ItemKey": "BBU Cards",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -120537,14 +119865,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000597825.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000233713.0",
         "LineItemText": "Combiners installation Qty(1)",
         "ItemKey": "Combiner",
@@ -120874,14 +120194,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -122730,14 +122042,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -123250,14 +122554,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -126575,14 +125871,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -129638,14 +128926,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -139066,14 +138346,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -140635,14 +139907,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -141008,14 +140272,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000597822.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
         "FinalPRQty": 1
       },
       {
@@ -144168,14 +143424,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212448.0",
         "LineItemText": "Filter installation  Qty(4-6)",
         "ItemKey": "Filter",
@@ -145914,14 +145162,6 @@
         "ItemKey": "Security Bar",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589388.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(16))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 15.0,
         "FinalPRQty": 1
       }
     ]
@@ -148104,14 +147344,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000597826.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(10))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 10.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000233713.0",
         "LineItemText": "Combiners installation Qty(1)",
         "ItemKey": "Combiner",
@@ -148396,14 +147628,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -148576,14 +147800,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
         "FinalPRQty": 1
       },
       {
@@ -153397,14 +152613,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212453.0",
         "LineItemText": "Combiners installation Qty(3-6) per Site",
         "ItemKey": "Combiner",
@@ -153482,14 +152690,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212453.0",
         "LineItemText": "Combiners installation Qty(3-6) per Site",
         "ItemKey": "Combiner",
@@ -153556,14 +152756,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -155699,14 +154891,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589388.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(16))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 16.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212448.0",
         "LineItemText": "Filter installation  Qty(4-6)",
         "ItemKey": "Filter",
@@ -155781,14 +154965,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
         "FinalPRQty": 1
       },
       {
@@ -156137,14 +155313,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
         "FinalPRQty": 1
       }
     ]
@@ -156931,14 +156099,6 @@
         "ItemKey": "Feeder 1/2",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 4,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
         "FinalPRQty": 1
       },
       {
@@ -160387,14 +159547,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -162953,14 +162105,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -164885,14 +164029,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589387.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(14))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 14.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -165668,14 +164804,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000597824.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -167186,14 +166314,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -167865,14 +166985,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -169278,14 +168390,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -170092,14 +169196,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589385.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(10))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 9.0,
         "FinalPRQty": 1
       },
       {
@@ -171788,14 +170884,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -174490,14 +173578,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
         "FinalPRQty": 1
       }
     ]
@@ -177514,14 +176594,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212448.0",
         "LineItemText": "Filter installation  Qty(4-6)",
         "ItemKey": "Filter",
@@ -177660,14 +176732,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -177795,14 +176859,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -178506,14 +177562,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212453.0",
         "LineItemText": "Combiners installation Qty(3-6) per Site",
         "ItemKey": "Combiner",
@@ -178676,14 +177724,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -178819,14 +177859,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -180897,14 +179929,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
         "FinalPRQty": 1
       },
       {
@@ -185488,14 +184512,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212448.0",
         "LineItemText": "Filter installation  Qty(4-6)",
         "ItemKey": "Filter",
@@ -185732,14 +184748,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -187386,14 +186394,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -187651,14 +186651,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -188219,14 +187211,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -192222,14 +191206,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -192721,14 +191697,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -193180,14 +192148,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
         "FinalPRQty": 1
       }
     ]
@@ -195290,14 +194250,6 @@
         "ItemKey": "Feeder 1/2",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 6,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -197929,14 +196881,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589388.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(16))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 16.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -199723,14 +198667,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 11.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212448.0",
         "LineItemText": "Filter installation  Qty(4-6)",
         "ItemKey": "Filter",
@@ -200988,14 +199924,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212448.0",
         "LineItemText": "Filter installation  Qty(4-6)",
         "ItemKey": "Filter",
@@ -201415,14 +200343,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
         "FinalPRQty": 1
       },
       {
@@ -202007,14 +200927,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -202580,14 +201492,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
         "FinalPRQty": 1
       },
       {
@@ -204272,14 +203176,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -204439,14 +203335,6 @@
         "ItemKey": "BBU Cards",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589385.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(10))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 10.0,
         "FinalPRQty": 1
       },
       {
@@ -204771,14 +203659,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -204862,14 +203742,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -204938,14 +203810,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -205055,14 +203919,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589388.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(16))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 15.0,
         "FinalPRQty": 1
       },
       {
@@ -205403,14 +204259,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000233713.0",
         "LineItemText": "Combiners installation Qty(1)",
         "ItemKey": "Combiner",
@@ -205607,14 +204455,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
         "FinalPRQty": 1
       },
       {
@@ -206008,14 +204848,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -206358,14 +205190,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -207009,14 +205833,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -207102,14 +205918,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -207192,14 +206000,6 @@
         "ItemKey": "Security Bar",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -207415,14 +206215,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       }
     ]
@@ -207744,14 +206536,6 @@
         "ItemKey": "Feeder 1/2",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 8,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -208712,14 +207496,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000597823.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -209309,14 +208085,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
         "FinalPRQty": 1
       },
       {
@@ -211823,14 +210591,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -211967,14 +210727,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -212035,14 +210787,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -212139,14 +210883,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -212240,14 +210976,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -212333,14 +211061,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 5.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -212389,14 +211109,6 @@
         "MaterialCode": "350000589431.0",
         "LineItemText": "Circuit breaker expansion/replacement/dismantle without cable",
         "ItemKey": "Circuit Breaker",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
         "FinalPRQty": 1
@@ -213323,14 +212035,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589387.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(14))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 14.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212448.0",
         "LineItemText": "Filter installation  Qty(4-6)",
         "ItemKey": "Filter",
@@ -213912,14 +212616,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -213978,14 +212674,6 @@
         "ItemKey": "Feeder 1/2",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 8,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -226601,14 +225289,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589389.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(18))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 18.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -226837,14 +225517,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589387.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(14))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 14.0,
         "FinalPRQty": 1
       },
       {
@@ -227493,14 +226165,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -227549,14 +226213,6 @@
         "MaterialCode": "350000589431.0",
         "LineItemText": "Circuit breaker expansion/replacement/dismantle without cable",
         "ItemKey": "Circuit Breaker",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
         "FinalPRQty": 1
@@ -227809,14 +226465,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000597824.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -227944,14 +226592,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -228732,14 +227372,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -230232,14 +228864,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -230386,14 +229010,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -230537,14 +229153,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -230954,14 +229562,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -231403,14 +230003,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -231647,14 +230239,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
         "FinalPRQty": 1
       },
       {
@@ -232136,14 +230720,6 @@
         "MaterialCode": "350000167114.0",
         "LineItemText": "Install Antenna Bracket (with boom) and all  accessories",
         "ItemKey": "Bracket",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
         "FinalPRQty": 1
@@ -232802,14 +231378,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -233434,14 +232002,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212448.0",
         "LineItemText": "Filter installation  Qty(4-6)",
         "ItemKey": "Filter",
@@ -233864,14 +232424,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -234188,14 +232740,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589385.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(10))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 9.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -234278,14 +232822,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -234424,14 +232960,6 @@
         "ItemKey": "BBU Cards",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -234934,14 +233462,6 @@
         "ItemKey": "Feeder 1/2",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 4,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -235770,14 +234290,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -236851,14 +235363,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -236941,14 +235445,6 @@
         "ItemKey": "Security Bar",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -237395,14 +235891,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -237459,14 +235947,6 @@
         "MaterialCode": "350000589431.0",
         "LineItemText": "Circuit breaker expansion/replacement/dismantle without cable",
         "ItemKey": "Circuit Breaker",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
         "FinalPRQty": 1
@@ -237947,14 +236427,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -238109,14 +236581,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -238260,14 +236724,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -238637,14 +237093,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -239370,14 +237818,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -239497,14 +237937,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
         "FinalPRQty": 1
       },
       {
@@ -240225,14 +238657,6 @@
         "MaterialCode": "350000589431.0",
         "LineItemText": "Circuit breaker expansion/replacement/dismantle without cable",
         "ItemKey": "Circuit Breaker",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 5.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 5.0,
         "FinalPRQty": 1
@@ -244419,14 +242843,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -245407,14 +243823,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
         "FinalPRQty": 1
       },
       {
@@ -248203,14 +246611,6 @@
         "MaterialCode": "350000212450.0",
         "LineItemText": "GPS installation per Site",
         "ItemKey": "GPS",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
@@ -255813,14 +254213,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -256455,14 +254847,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589388.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(16))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 15.0,
         "FinalPRQty": 1
       },
       {
@@ -258931,14 +257315,6 @@
         "ItemKey": "Feeder 1/2",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 6,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       }
     ]
@@ -262918,14 +261294,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589389.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(18))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 18.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -263358,14 +261726,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -265937,14 +264297,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -267100,14 +265452,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -268214,14 +266558,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       }
     ]
@@ -293855,14 +292191,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -297580,14 +295908,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -297723,14 +296043,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -299059,14 +297371,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -299735,14 +298039,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -301312,14 +299608,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212448.0",
         "LineItemText": "Filter installation  Qty(4-6)",
         "ItemKey": "Filter",
@@ -301423,14 +299711,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -302677,14 +300957,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589388.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(16))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 16.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -302735,14 +301007,6 @@
         "MaterialCode": "350000589431.0",
         "LineItemText": "Circuit breaker expansion/replacement/dismantle without cable",
         "ItemKey": "Circuit Breaker",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 4.0,
         "FinalPRQty": 1
@@ -303621,14 +301885,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
         "FinalPRQty": 1
       },
       {
@@ -305365,14 +303621,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -305819,14 +304067,6 @@
         "MaterialCode": "350000167114.0",
         "LineItemText": "Install Antenna Bracket (with boom) and all  accessories",
         "ItemKey": "Bracket",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
@@ -323584,14 +321824,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -327747,14 +325979,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589390.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(19-24))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 24.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -328461,14 +326685,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -328891,14 +327107,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -331569,14 +329777,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -332540,14 +330740,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589384.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(8))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 8.0,
         "FinalPRQty": 1
       },
       {
@@ -335190,14 +333382,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -335875,14 +334059,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212448.0",
         "LineItemText": "Filter installation  Qty(4-6)",
         "ItemKey": "Filter",
@@ -336034,14 +334210,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -336591,14 +334759,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -337583,14 +335743,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -338606,14 +336758,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -339615,14 +337759,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -340257,14 +338393,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -342552,14 +340680,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -342634,14 +340754,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -342788,14 +340900,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -343112,14 +341216,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 4.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -343797,14 +341893,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -344240,14 +342328,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -344370,14 +342450,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -344436,14 +342508,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -345384,14 +343448,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
         "FinalPRQty": 1
       },
       {
@@ -346475,14 +344531,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -346549,14 +344597,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589388.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(16))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 16.0,
         "FinalPRQty": 1
       },
       {
@@ -347086,14 +345126,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -347144,14 +345176,6 @@
         "ItemKey": "BBU Cards",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -347333,14 +345357,6 @@
         "MaterialCode": "350000589439.0",
         "LineItemText": "Installation of Security lock bar& belting",
         "ItemKey": "Security Bar",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
@@ -348121,14 +346137,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -348710,14 +346718,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -348795,14 +346795,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -348861,14 +346853,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -348954,14 +346938,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -349116,14 +347092,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       },
       {
@@ -349302,14 +347270,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589387.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(14))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 14.0,
         "FinalPRQty": 1
       }
     ]
@@ -351683,14 +349643,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589389.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(18))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 18.0,
         "FinalPRQty": 1
       },
       {
@@ -354170,14 +352122,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589385.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(10))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 9.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -356499,14 +354443,6 @@
         "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 37.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000597824.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -358957,14 +356893,6 @@
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589390.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(19-24))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 24.0,
-        "FinalPRQty": 1
       }
     ]
   },
@@ -359203,14 +357131,6 @@
         "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 23.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000597824.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -359953,14 +357873,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
         "FinalPRQty": 1
       },
       {
@@ -365161,14 +363073,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -373069,14 +370973,6 @@
         "MaterialCode": "350000589431.0",
         "LineItemText": "Circuit breaker expansion/replacement/dismantle without cable",
         "ItemKey": "Circuit Breaker",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
         "FinalPRQty": 1
@@ -397857,14 +395753,6 @@
         "MaterialCode": "350000212450.0",
         "LineItemText": "GPS installation per Site",
         "ItemKey": "GPS",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
         "FinalPRQty": 1
@@ -442873,14 +440761,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000597829.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(16))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 16.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -458949,14 +456829,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000597824.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000589430.0",
         "LineItemText": "DC power supply system rectifiers expansion.",
         "ItemKey": "Power Module",
@@ -471188,14 +469060,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589381.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(2))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -471631,14 +469495,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -471957,14 +469813,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
         "FinalPRQty": 1
       }
     ]
@@ -473713,14 +471561,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589386.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(12))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 12.0,
         "FinalPRQty": 1
       },
       {
@@ -482816,14 +480656,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000597823.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(1-5/8 Feeder)",
-        "ItemKey": "Feeder 1 5/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 4.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -485153,14 +482985,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589382.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(4))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 3.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -486803,14 +484627,6 @@
         "ItemKey": "Bracket",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -498740,14 +496556,6 @@
         "FinalPRQty": 1
       },
       {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
-        "FinalPRQty": 1
-      },
-      {
         "MaterialCode": "350000212447.0",
         "LineItemText": "Filter installation  Qty(1-3)",
         "ItemKey": "Filter",
@@ -499026,14 +496834,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 5.0,
         "FinalPRQty": 1
       },
       {
@@ -499642,14 +497442,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
@@ -505724,14 +503516,6 @@
         "ItemKey": "GPS",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 1.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       }
     ]
@@ -517297,14 +515081,6 @@
         "ItemKey": "Circuit Breaker",
         "PR_Mode": "INSTALL",
         "CalculatedQty": 2.0,
-        "FinalPRQty": 1
-      },
-      {
-        "MaterialCode": "350000589383.0",
-        "LineItemText": "RF Feeder installation(Feeder Qty(6))(7/8 and 1-1/4 Feeder)",
-        "ItemKey": "Feeder 7/8",
-        "PR_Mode": "INSTALL",
-        "CalculatedQty": 6.0,
         "FinalPRQty": 1
       },
       {
