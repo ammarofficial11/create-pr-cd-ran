@@ -34,6 +34,33 @@ def load_pr_rules():
         if enabled in [False, 0, "FALSE", "False"]:
             continue
 
+        material_code = row.get(
+            "newContractcode",
+            ""
+        )
+
+        if pd.isna(material_code):
+            material_code = ""
+        elif isinstance(material_code, float):
+            if material_code.is_integer():
+                material_code = int(material_code)
+
+        line_item_text = row.get(
+            "LineItemText",
+            ""
+        )
+
+        if pd.isna(line_item_text):
+            line_item_text = ""
+
+        unit = row.get(
+            "Unit*",
+            ""
+        )
+
+        if pd.isna(unit):
+            unit = ""
+
         rules.append({
 
             "ItemKey": str(
@@ -53,11 +80,11 @@ def load_pr_rules():
             ),
 
             "LineItemText": str(
-                row.get("LineItemText", "")
+                line_item_text
             ).strip(),
 
             "MaterialCode": str(
-                row.get("newContractcode", "")
+                material_code
             ).strip(),
 
             "Enabled": enabled,
@@ -68,6 +95,10 @@ def load_pr_rules():
 
             "SourceType": str(
                 row.get("SourceType", "")
+            ).strip(),
+
+            "Unit": str(
+                unit
             ).strip(),
         })
 
@@ -140,6 +171,9 @@ def generate_pr_for_site(site_code, site_data, rules):
 
                 "FinalPRQty":
                     final_qty,
+
+                "Unit":
+                    rule["Unit"],
             }
 
             pr_lines.append(pr_line)

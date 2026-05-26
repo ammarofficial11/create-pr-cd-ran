@@ -66,13 +66,13 @@ def main():
                     item.get("LineItemText", ""),
 
                 "Unit*":
-                    "",
+                    item.get("Unit", ""),
 
                 "Quantity*":
                     item.get("FinalPRQty", 0),
 
                 "Remarks":
-                    "",
+                    item.get("LineItemText", "") if not item.get("MaterialCode", "") else "",
             })
 
             sn += 1
