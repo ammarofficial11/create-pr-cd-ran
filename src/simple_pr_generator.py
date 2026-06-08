@@ -232,11 +232,22 @@ def _is_truthy_project_flag(value):
 def _normalize_text(value):
     if value is None:
         return ""
-    return str(value).strip().lower()
+    # Treat pandas NA, NaN and literal 'nan'/'none' as empty
+    try:
+        if pd.isna(value):
+            return ""
+    except Exception:
+        pass
+
+    s = str(value).strip().lower()
+    if s in {"nan", "none"}:
+        return ""
+    return s
 
 
 def _matches_location(site_code, location, config_region, province_state, city, em_transport_map):
-    if not location:
+    location_value = _normalize_text(location)
+    if not location_value:
         match = True
         print(
             f"Site={site_code} "
@@ -247,8 +258,6 @@ def _matches_location(site_code, location, config_region, province_state, city, 
             f"Decision={match}"
         )
         return True
-
-    location_value = _normalize_text(location)
     province_value = _normalize_text(province_state)
     city_value = _normalize_text(city)
     match = False
@@ -375,6 +384,7 @@ def generate_general_pr_for_site(
             "CalculatedQty": 1,
             "FinalPRQty": 1,
             "Unit": row["unit"],
+            "Remarks": "General Item TI",
         })
 
     return general_rows
@@ -449,6 +459,9 @@ def generate_pr_for_site(site_code, site_data, rules):
 
                 "Unit":
                     rule["Unit"],
+
+                "Remarks":
+                    "BOM TI",
             }
 
             pr_lines.append(pr_line)

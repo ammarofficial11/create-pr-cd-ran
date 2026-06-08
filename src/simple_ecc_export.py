@@ -41,7 +41,7 @@ def compose_ecc_rows(pr_data):
                 "SOW*": item.get("LineItemText", ""),
                 "Unit*": item.get("Unit", ""),
                 "Quantity*": item.get("FinalPRQty", 0),
-                "Remarks": item.get("LineItemText", "") if not item.get("MaterialCode", "") else "",
+                "Remarks": item.get("Remarks", ""),
             })
             sn += 1
 

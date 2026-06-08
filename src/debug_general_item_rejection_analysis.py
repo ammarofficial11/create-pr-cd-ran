@@ -46,7 +46,7 @@ def parse_args() -> argparse.Namespace:
         "--selected-project",
         dest="selected_project",
         help="Selected General DU project to analyze.",
-        required=True,
+        required=False,
     )
     return parser.parse_args()
 
@@ -164,7 +164,7 @@ def build_rejection_rows(
                         em_transport_map,
                     )
                 if not match:
-                    if not location:
+                    if not _normalize_text(location):
                         reject_reason = "Location blank"
                     else:
                         location_value = _normalize_text(location)
@@ -259,6 +259,22 @@ def export_report(df: pd.DataFrame, output_path: Path) -> None:
 
 def main() -> None:
     args = parse_args()
+    selected_project = args.selected_project
+    # If no project supplied on the command line, prompt using the
+    # same selection menu as `src/simple_ecc_export.py`.
+    if not selected_project:
+        try:
+            from src.simple_ecc_export import select_general_project
+        except Exception:
+            select_general_project = None
+
+        if select_general_project is not None:
+            selected_project = select_general_project()
+
+        if not selected_project:
+            print("No project selected. Exiting.")
+            return
+
     repo_root = Path(__file__).resolve().parents[1]
     calculated_path = repo_root / "output" / "simple_calculated.json"
     epms_path = repo_root / "input" / "EPMS.xlsx"
@@ -269,7 +285,7 @@ def main() -> None:
 
     df = build_rejection_rows(
         calculated,
-        args.selected_project,
+        selected_project,
         general_config,
         em_transport_map,
         epms_map,
