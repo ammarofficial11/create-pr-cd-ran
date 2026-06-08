@@ -2,16 +2,63 @@ import subprocess
 import sys
 
 
-def run_script(script_name):
+GENERAL_PROJECTS = {
+    "1": "CD consolidation 2023 (Swap/ Modernize)",
+    "2": "CD consolidation 2023 (Decomm RAN)",
+    "3": "CD consolidation 2023 (Decomm TX)",
+    "4": "NIC congest upgrade",
+    "5": "2023 Celcomdigi BAU",
+    "6": "2024 Celcomdigi BAU",
+    "7": "CR with Equipment",
+    "8": "Celcomdigi USP",
+}
+
+
+def select_general_project():
+
+    print("=" * 60)
+    print("GENERAL DU PROJECT SELECTION")
+    print("=" * 60)
+    print()
+
+    print("1. 2023 (Swap/Modernize)")
+    print("2. 2023 (Decomm RAN)")
+    print("3. 2023 (Decomm TX)")
+    print("4. NIC congest upgrade")
+    print("5. 2023 Celcomdigi BAU")
+    print("6. 2024 Celcomdigi BAU")
+    print("7. CR with Equipment")
+    print("8. Celcomdigi USP")
+    print()
+    print("0. Skip General Item Processing")
+    print()
+
+    selection = input("Enter selection: ").strip()
+
+    if selection == "" or selection == "0":
+        return None
+
+    project = GENERAL_PROJECTS.get(selection)
+    if not project:
+        print()
+        print("Invalid selection. Skipping General Item Processing.")
+        return None
+
+    return project
+
+
+def run_script(script_name, selected_project=None):
 
     print()
     print("=" * 70)
     print(f"RUNNING: {script_name}")
     print("=" * 70)
 
-    result = subprocess.run(
-        [sys.executable, script_name]
-    )
+    command = [sys.executable, script_name]
+    if selected_project and script_name.endswith("simple_pr_generator.py"):
+        command.extend(["--selected-project", selected_project])
+
+    result = subprocess.run(command)
 
     if result.returncode != 0:
 
@@ -37,9 +84,11 @@ def main():
         "src/simple_ecc_export.py",
     ]
 
+    selected_project = select_general_project()
+
     for script in pipeline:
 
-        run_script(script)
+        run_script(script, selected_project=selected_project)
 
     print()
     print("=" * 70)
@@ -56,7 +105,10 @@ def main():
     print("3. output/simple_pr_output.json")
 
     print("4. output/ECC_PR_Output.xlsx")
-
+    if selected_project:
+        print("5. output/general_pr_output.json")
+        print("6. output/simple_pr_output_with_general_items.json")
+        print("7. output/ECC_PR_Output_With_GeneralItems.xlsx")
 
 if __name__ == "__main__":
 
