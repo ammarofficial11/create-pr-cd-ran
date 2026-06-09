@@ -1,4 +1,4 @@
-````markdown
+
 # Telecom PR Automation Engine
 
 ## Overview
@@ -639,9 +639,12 @@ Ready for:
 * procurement processing
 * telecom PR submission
 
-```
-```
-#   c r e a t e - p r - c d - r a n  
- #   c r e a t e - p r - c d - r a n  
- #   c r e a t e - p r - c d - r a n  
+
+
+#   c r e a t e - p r - c d - r a n 
+ 
+ #   c r e a t e - p r - c d - r a n 
+ 
+ #   c r e a t e - p r - c d - r a n 
+ 
  
