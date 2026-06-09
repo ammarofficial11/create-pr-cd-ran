@@ -1,46 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>RAN PR Automation</title>
+<meta charset="UTF-8">
+<title>RAN PR Automation</title>
 
-    <style>
+<style>
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background: #f4f4f4;
-        }
+body{
+    font-family:Arial;
+    margin:40px;
+    background:#f4f4f4;
+}
 
-        h1 {
-            color: #003366;
-        }
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:700px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
 
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            width: 600px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+button{
+    padding:10px 20px;
+    margin-top:10px;
+}
 
-        button {
-            padding: 10px 20px;
-            margin-top: 10px;
-            cursor: pointer;
-        }
+select,input{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
 
-        select {
-            width: 100%;
-            padding: 10px;
-            margin-top: 10px;
-        }
+.status{
+    margin-top:20px;
+    font-weight:bold;
+}
 
-        #status {
-            margin-top: 20px;
-            font-weight: bold;
-        }
+.success{
+    color:green;
+}
 
-    </style>
+.running{
+    color:orange;
+}
+
+</style>
 
 </head>
 
@@ -48,62 +53,125 @@
 
 <div class="card">
 
-    <h1>RAN PR Automation</h1>
+<h1>RAN PR Automation</h1>
 
-    <hr>
+<hr>
 
-    <h3>Project Selection</h3>
+<h3>Upload BOM</h3>
 
-    <select id="projectDropdown">
+<input
+    type="file"
+    id="bomFile"
+/>
 
-        <option>Loading Projects...</option>
+<button onclick="uploadBOM()">
+    Upload BOM
+</button>
 
-    </select>
+<div id="bomStatus">
+    Not Uploaded
+</div>
 
-    <br><br>
+<hr>
 
-    <button onclick="generatePR()">
-        Generate PR
-    </button>
+<h3>Upload EPMS</h3>
 
-    <div id="status">
+<input
+    type="file"
+    id="epmsFile"
+/>
 
-        Ready
+<button onclick="uploadEPMS()">
+    Upload EPMS
+</button>
 
-    </div>
+<div id="epmsStatus">
+    Not Uploaded
+</div>
 
-    <hr>
+<hr>
 
-    <h3>Downloads</h3>
+<h3>Select Project</h3>
 
-    <a href="/download-pr" target="_blank">
-        Download ECC PR Output
-    </a>
+<select id="projectDropdown">
 
-    <br><br>
+    <option>
+        Loading...
+    </option>
 
-    <a href="/download-output" target="_blank">
-        Download ECC PR Output With General Items
-    </a>
+</select>
 
+<hr>
+
+<button onclick="generatePR()">
+
+    Generate PR
+
+</button>
+
+<div
+    id="jobStatus"
+    class="status">
+
+    Ready
+
+</div>
+
+<hr>
+
+<div id="downloadSection" style="display:none;">
+<h3>Latest Generated Job</h3>
+
+<div id="jobInfo">
+
+No job generated yet
+
+</div>
+
+<hr>
+<h3>Download Output</h3>
+
+<a href="/download-pr">
+    Download BOM TI Only
+</a>
+
+<div id="bomOutputTime">
+    No file generated
+</div>
+
+<br>
+
+<a href="/download-pr-general">
+    Download BOM TI + General Item
+</a>
+
+<div id="generalOutputTime">
+    No file generated
+</div>
+
+</div>
 </div>
 
 <script>
 
-async function loadProjects() {
+async function loadProjects(){
 
-    const response = await fetch("/projects");
+    const response =
+        await fetch("/projects");
 
-    const projects = await response.json();
+    const projects =
+        await response.json();
 
     const dropdown =
-        document.getElementById("projectDropdown");
+        document.getElementById(
+            "projectDropdown"
+        );
 
     dropdown.innerHTML = "";
 
-    projects.forEach(project => {
+    projects.forEach(project=>{
 
-        const option =
+        let option =
             document.createElement("option");
 
         option.value = project;
@@ -115,38 +183,272 @@ async function loadProjects() {
 
 }
 
-async function generatePR() {
+async function uploadBOM(){
+
+    let file =
+        document.getElementById(
+            "bomFile"
+        ).files[0];
+
+    let formData =
+        new FormData();
+
+    formData.append(
+        "file",
+        file
+    );
+
+    await fetch(
+        "/upload-bom",
+        {
+            method:"POST",
+            body:formData
+        }
+    );
+
+    const now = new Date();
+
+document.getElementById(
+    "bomStatus"
+).innerHTML =
+    "[100%] Uploaded: "
+    + file.name
+    + "<br>"
+    + now.toLocaleString();
+
+}
+
+async function uploadEPMS(){
+
+    let file =
+        document.getElementById(
+            "epmsFile"
+        ).files[0];
+
+    let formData =
+        new FormData();
+
+    formData.append(
+        "file",
+        file
+    );
+
+    await fetch(
+        "/upload-epms",
+        {
+            method:"POST",
+            body:formData
+        }
+    );
+
+    const now = new Date();
+
+document.getElementById(
+    "epmsStatus"
+).innerHTML =
+    "[100%] Uploaded: "
+    + file.name
+    + "<br>"
+    + now.toLocaleString();
+
+}
+
+async function generatePR(){
+
+    
 
     const project =
-        document.getElementById("projectDropdown").value;
+        document.getElementById(
+            "projectDropdown"
+        ).value;
 
-    document.getElementById("status").innerHTML =
-        "Generating PR...";
+    
+const bom =
+    document.getElementById(
+        "bomFile"
+    ).files[0];
 
-    const response = await fetch(
+const epms =
+    document.getElementById(
+        "epmsFile"
+    ).files[0];
+
+if(!bom){
+
+    alert("Upload BOM first");
+    return;
+}
+
+if(!epms){
+
+    alert("Upload EPMS first");
+    return;
+}
+
+document.getElementById(
+    "downloadSection"
+).style.display =
+    "none";
+
+document.getElementById(
+    "bomOutputTime"
+).innerHTML =
+    "Generating new file...";
+
+document.getElementById(
+    "generalOutputTime"
+).innerHTML =
+    "Generating new file...";
+
+
+document.getElementById(
+    "jobStatus"
+).innerHTML =
+    `
+    Uploads verified [100%]<br>
+    Starting PR generation...<br>
+    Normalizing BOM...
+    `;
+
+
+    
+    await fetch(
         "/generate-pr",
         {
-            method: "POST",
+            method:"POST",
 
-            headers: {
-                "Content-Type": "application/json"
+            headers:{
+                "Content-Type":
+                "application/json"
             },
 
-            body: JSON.stringify({
-                project: project
+            body:JSON.stringify({
+                project:project
             })
         }
     );
 
-    const result =
+}
+
+async function checkStatus(){
+
+    const response =
+        await fetch(
+            "/job-status"
+        );
+
+    const data =
         await response.json();
 
-    document.getElementById("status").innerHTML =
-        "Completed : " + result.status;
+    const status =
+        data.status;
 
+    if(status === "idle"){
+
+        document.getElementById(
+            "jobStatus"
+        ).innerHTML =
+            "Ready";
+
+    }
+
+    else if(status === "running"){
+
+        document.getElementById(
+            "jobStatus"
+        ).innerHTML =
+            `
+            [100%] BOM uploaded<br>
+            [100%] EPMS uploaded<br>
+            [PROCESSING] Generating PR...
+            `;
+
+    }
+
+    else if(status === "completed"){
+
+        document.getElementById(
+            "jobStatus"
+        ).innerHTML =
+            `
+            [100%] BOM uploaded<br>
+            [100%] EPMS uploaded<br>
+            [100%] PR generated<br>
+            [100%] Export completed
+            `;
+
+        document.getElementById(
+            "downloadSection"
+        ).style.display =
+            "block";
+
+            loadOutputInfo();
+            loadJobInfo();
+    }
+}
+
+async function loadOutputInfo(){
+
+    const response =
+        await fetch(
+            "/output-info"
+        );
+
+    const data =
+        await response.json();
+
+    document.getElementById(
+        "bomOutputTime"
+    ).innerHTML =
+        "Generated: "
+        + (data.bom_ti || "N/A");
+
+    document.getElementById(
+        "generalOutputTime"
+    ).innerHTML =
+        "Generated: "
+        + (data.general || "N/A");
+}
+
+async function loadJobInfo(){
+
+    const response =
+        await fetch(
+            "/job-info"
+        );
+
+    const data =
+        await response.json();
+
+    if(data.status === "no_job"){
+
+        return;
+    }
+
+    document.getElementById(
+        "downloadSection"
+    ).style.display =
+        "block";
+
+    document.getElementById(
+        "jobInfo"
+    ).innerHTML =
+        `
+        <b>Project:</b> ${data.project}<br>
+        <b>BOM:</b> ${data.bom_file}<br>
+        <b>EPMS:</b> ${data.epms_file}<br>
+        <b>Generated:</b> ${data.generated_time}
+        `;
 }
 
 loadProjects();
+loadOutputInfo();
+loadJobInfo();
+
+setInterval(
+    checkStatus,
+    2000
+);
 
 </script>
 

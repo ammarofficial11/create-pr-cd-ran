@@ -8,10 +8,13 @@ import sys
 import os
 import shutil
 import threading
+import json
+from datetime import datetime
 
 from src.run_pipeline import run_pipeline
 
-
+LAST_BOM_FILE = None
+LAST_EPMS_FILE = None
 # =====================================================
 # GLOBALS
 # =====================================================
@@ -131,6 +134,9 @@ def python_info():
 
 @app.post("/upload-bom")
 async def upload_bom(file: UploadFile = File(...)):
+    global LAST_BOM_FILE
+
+    LAST_BOM_FILE = file.filename
 
     os.makedirs("input", exist_ok=True)
 
@@ -153,7 +159,9 @@ async def upload_bom(file: UploadFile = File(...)):
 
 @app.post("/upload-epms")
 async def upload_epms(file: UploadFile = File(...)):
+    global LAST_EPMS_FILE
 
+    LAST_EPMS_FILE = file.filename
     os.makedirs("input", exist_ok=True)
 
     destination = "input/EPMS.xlsx"
@@ -193,21 +201,43 @@ def check_files():
 def run_job(project):
 
     global JOB_STATUS
+    global LAST_BOM_FILE
+    global LAST_EPMS_FILE
 
-    try:
+    JOB_STATUS = "running"
 
-        JOB_STATUS = "running"
+    run_pipeline(
+        selected_project=project
+    )
 
-        run_pipeline(
-            selected_project=project
+    os.makedirs(
+        "output",
+        exist_ok=True
+    )
+
+    with open(
+        "output/job_info.json",
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            {
+                "project": project,
+                "generated_time":
+                    datetime.now().strftime(
+                        "%Y-%m-%d %H:%M:%S"
+                    ),
+                "bom_file":
+                    LAST_BOM_FILE,
+                "epms_file":
+                    LAST_EPMS_FILE
+            },
+            f,
+            indent=4
         )
 
-        JOB_STATUS = "completed"
-
-    except Exception as e:
-
-        JOB_STATUS = f"failed: {str(e)}"
-
+    JOB_STATUS = "completed"
 
 # =====================================================
 # GENERATE PR
@@ -228,6 +258,24 @@ def generate_pr(request: GenerateRequest):
         "project": request.project
     }
 
+@app.get("/job-info")
+def job_info():
+
+    file_path = "output/job_info.json"
+
+    if not os.path.exists(file_path):
+
+        return {
+            "status": "no_job"
+        }
+
+    with open(
+        file_path,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        return json.load(f)
 
 # =====================================================
 # JOB STATUS
@@ -317,3 +365,34 @@ def ui():
 
     with open("web/index.html") as f:
         return f.read()
+
+@app.get("/output-info")
+def output_info():
+
+    import datetime
+
+    result = {}
+
+    files = {
+        "bom_ti":
+        "output/ECC_PR_Output.xlsx",
+
+        "general":
+        "output/ECC_PR_Output_With_GeneralItems.xlsx"
+    }
+
+    for key, path in files.items():
+
+        if os.path.exists(path):
+
+            modified_time = os.path.getmtime(path)
+
+            result[key] = datetime.datetime.fromtimestamp(
+                modified_time
+            ).strftime("%Y-%m-%d %H:%M:%S")
+
+        else:
+
+            result[key] = None
+
+    return result
