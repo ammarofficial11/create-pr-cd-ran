@@ -1,4 +1,5 @@
 import json
+import os
 import unicodedata
 from collections import defaultdict
 from difflib import get_close_matches
@@ -10,9 +11,9 @@ CONFIG_FILE = "config/MainConfig.xlsx"
 
 REFERENCE_FILE = "config/ReferenceSubcon&Region.xlsx"
 
-BOM_FILE = "input/BOM.xlsx"
+BOM_FILE = os.environ.get("BOM_FILE_PATH", "input/BOM.xlsx")
 
-EPMS_FILE = "input/EPMS.xlsx"
+EPMS_FILE = os.environ.get("EPMS_FILE_PATH", "input/EPMS.xlsx")
 
 NORMALIZATION_SHEET = "Equipment_Normalization"
 

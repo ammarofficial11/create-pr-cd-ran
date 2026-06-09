@@ -264,7 +264,7 @@ def main() -> None:
     # same selection menu as `src/simple_ecc_export.py`.
     if not selected_project:
         try:
-            from src.simple_ecc_export import select_general_project
+            from src.run_pipeline import select_general_project
         except Exception:
             select_general_project = None
 

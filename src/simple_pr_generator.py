@@ -15,6 +15,8 @@ GENERAL_ITEM_CONFIG_FILE = "config/GENERAL ITEM FOR ALL DU PROJECT Overall.xlsx"
 GENERAL_ITEM_OUTPUT_FILE = "output/general_pr_output.json"
 COMBINED_PR_OUTPUT_FILE = "output/simple_pr_output_with_general_items.json"
 
+EPMS_FILE = os.environ.get("EPMS_FILE_PATH", "input/EPMS.xlsx")
+
 MAIN_RULE_SHEET = "MainRuleTable"
 
 
@@ -200,7 +202,9 @@ def load_general_item_config():
     return df_by_region, em_transport_map
 
 
-def load_epms_map(path):
+def load_epms_map(path=None):
+    if path is None:
+        path = EPMS_FILE
     df = pd.read_excel(path, sheet_name="data", header=3, engine="openpyxl")
     site_map = {}
 
@@ -504,7 +508,7 @@ def main():
     if selected_project:
         print("Loading general DU project configuration...")
         general_item_config, em_transport_map = load_general_item_config()
-        epms_map = load_epms_map("input/EPMS.xlsx")
+        epms_map = load_epms_map()
 
     final_output = {}
     general_output = {}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAN PR Automation</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f4f4f4;
+        }
+
+        h1 {
+            color: #003366;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 600px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        #status {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1>RAN PR Automation</h1>
+
+    <hr>
+
+    <h3>Project Selection</h3>
+
+    <select id="projectDropdown">
+
+        <option>Loading Projects...</option>
+
+    </select>
+
+    <br><br>
+
+    <button onclick="generatePR()">
+        Generate PR
+    </button>
+
+    <div id="status">
+
+        Ready
+
+    </div>
+
+    <hr>
+
+    <h3>Downloads</h3>
+
+    <a href="/download-pr" target="_blank">
+        Download ECC PR Output
+    </a>
+
+    <br><br>
+
+    <a href="/download-output" target="_blank">
+        Download ECC PR Output With General Items
+    </a>
+
+</div>
+
+<script>
+
+async function loadProjects() {
+
+    const response = await fetch("/projects");
+
+    const projects = await response.json();
+
+    const dropdown =
+        document.getElementById("projectDropdown");
+
+    dropdown.innerHTML = "";
+
+    projects.forEach(project => {
+
+        const option =
+            document.createElement("option");
+
+        option.value = project;
+        option.text = project;
+
+        dropdown.appendChild(option);
+
+    });
+
+}
+
+async function generatePR() {
+
+    const project =
+        document.getElementById("projectDropdown").value;
+
+    document.getElementById("status").innerHTML =
+        "Generating PR...";
+
+    const response = await fetch(
+        "/generate-pr",
+        {
+            method: "POST",
+
+            headers: {
+                "Content-Type": "application/json"
+            },
+
+            body: JSON.stringify({
+                project: project
+            })
+        }
+    );
+
+    const result =
+        await response.json();
+
+    document.getElementById("status").innerHTML =
+        "Completed : " + result.status;
+
+}
+
+loadProjects();
+
+</script>
+
+</body>
+</html>
