@@ -1,3 +1,4 @@
+import sys
 import json
 import os
 import unicodedata
@@ -5,15 +6,13 @@ from collections import defaultdict
 from difflib import get_close_matches
 
 import pandas as pd
-
+BOM_FILE = None
+EPMS_FILE = None
 
 CONFIG_FILE = "config/MainConfig.xlsx"
 
 REFERENCE_FILE = "config/ReferenceSubcon&Region.xlsx"
 
-BOM_FILE = os.environ.get("BOM_FILE_PATH", "input/BOM.xlsx")
-
-EPMS_FILE = os.environ.get("EPMS_FILE_PATH", "input/EPMS.xlsx")
 
 NORMALIZATION_SHEET = "Equipment_Normalization"
 
@@ -247,13 +246,45 @@ def detect_site_columns(df):
         region_col,
         du_col,
     )
+# =========================================================
+# BOM LAST UPDATED DATE
+# =========================================================
 
+def get_bom_last_updated_date(df):
+
+    for col in df.columns:
+
+        col_name = clean_text(col).lower()
+
+        if "lastupdated" in col_name:
+
+            series = pd.to_datetime(
+                df[col],
+                errors="coerce"
+            )
+
+            max_date = series.max()
+
+            if pd.notna(max_date):
+
+                return max_date.strftime(
+                    "%Y-%m-%d %H:%M:%S"
+                )
+
+    return ""
 
 # =========================================================
 # MAIN
 # =========================================================
 
 def main():
+
+    global BOM_FILE
+    global EPMS_FILE
+
+    BOM_FILE = os.environ.get("BOM_FILE_PATH", "input/BOM.xlsx")
+
+    EPMS_FILE = os.environ.get("EPMS_FILE_PATH", "input/EPMS.xlsx")
 
     print("Loading normalization config...")
 
@@ -273,20 +304,34 @@ def main():
     epms_lookup = load_epms_lookup()
 
     print("Loading BOM...")
+    print(f"BOM FILE = {BOM_FILE}")
 
-    excel = pd.ExcelFile(BOM_FILE)
+    excel = pd.ExcelFile(
+    BOM_FILE,
+    engine="openpyxl"
+    )
 
     sheet_name = excel.sheet_names[0]
 
     print(f"Using BOM sheet: {sheet_name}")
 
     df = pd.read_excel(
-        BOM_FILE,
-        sheet_name=sheet_name,
-        header=2
+    BOM_FILE,
+    sheet_name=sheet_name,
+    header=2,
+    engine="openpyxl"
     )
 
     print(f"Loaded BOM rows: {len(df)}")
+
+    bom_last_updated_date = (
+        get_bom_last_updated_date(df)
+    )
+
+    print(
+        f"BOM Last Updated Date: "
+        f"{bom_last_updated_date}"
+    )
 
     (
         site_code_col,
@@ -294,7 +339,7 @@ def main():
         region_col,
         du_col,
     ) = detect_site_columns(df)
-
+    
     results = {}
 
     equipment_columns = []
@@ -460,6 +505,9 @@ def main():
 
                     "purchasing_area":
                         purchasing_area,
+
+                    "bom_last_updated_date":
+                        bom_last_updated_date,
                 },
 
                 "quantities":
@@ -510,8 +558,13 @@ def main():
     # EXPORT
     # =====================================================
 
+    OUTPUT_FILE = os.environ.get(
+        "NORMALIZED_OUTPUT_FILE",
+        "output/simple_normalized.json"
+    )
+
     with open(
-        "output/simple_normalized.json",
+        OUTPUT_FILE,
         "w",
         encoding="utf-8"
     ) as f:
@@ -525,10 +578,9 @@ def main():
     print("\nDONE")
 
     print(
-        "Exported: "
-        "output/simple_normalized.json"
+        f"Exported: "
+        f"{OUTPUT_FILE}"
     )
-
 
 if __name__ == "__main__":
 

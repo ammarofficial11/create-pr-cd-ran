@@ -1,13 +1,11 @@
 import json
-
+import os
 import pandas as pd
 
 
 CONFIG_FILE = "config/MainConfig.xlsx"
-
-NORMALIZED_FILE = "output/simple_normalized.json"
-
-OUTPUT_FILE = "output/simple_calculated.json"
+NORMALIZED_FILE = None
+OUTPUT_FILE = None
 
 CALCULATION_SHEET = "Calculation_Rules"
 
@@ -289,7 +287,17 @@ def calculate_site(site_data, rules):
 def main():
 
     print("Loading normalized quantities...")
+    global NORMALIZED_FILE
+    global OUTPUT_FILE
+    NORMALIZED_FILE = os.environ.get(
+        "NORMALIZED_INPUT_FILE",
+        "output/simple_normalized.json"
+    )
 
+    OUTPUT_FILE = os.environ.get(
+        "CALCULATED_OUTPUT_FILE",
+        "output/simple_calculated.json"
+    )
     with open(
         NORMALIZED_FILE,
         "r",
