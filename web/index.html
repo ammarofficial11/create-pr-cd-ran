@@ -12,12 +12,21 @@ body{
     margin:40px;
     background:#f4f4f4;
 }
+.container{
+    display:flex;
+    gap:20px;
+    align-items:flex-start;
+}
 
+
+.comparisonCard{
+    min-height:900px;
+}
 .card{
+    flex:1;
     background:white;
     padding:20px;
     border-radius:10px;
-    width:700px;
     box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -50,6 +59,8 @@ select,input{
 </head>
 
 <body>
+
+<div class="container">
 
 <div class="card">
 
@@ -150,8 +161,104 @@ No job generated yet
 </div>
 
 </div>
+
+
 </div>
 
+<div class="card comparisonCard">
+
+    <h1>BOM Revision Comparison Tool</h1>
+
+<hr>
+
+<h3>Workflow 1</h3>
+
+<b>PR Generated BOM vs Uploaded BOM</b>
+
+<br><br>
+
+<input
+    type="file"
+    id="bomCompareC"
+/>
+
+<button onclick="compareWorkflow1()">
+    Compare Workflow 1
+</button>
+
+<div id="workflow1Status">
+    Ready
+</div>
+
+<hr>
+
+<h3>Workflow 2</h3>
+
+<b>BOM A vs BOM B</b>
+
+<br><br>
+
+<label>BOM A</label>
+
+<input
+    type="file"
+    id="bomCompareA"
+/>
+
+<br>
+
+<label>BOM B</label>
+
+<input
+    type="file"
+    id="bomCompareB"
+/>
+
+<button onclick="compareWorkflow2()">
+    Compare Workflow 2
+</button>
+
+<div id="workflow2Status">
+
+    Ready
+
+</div>
+
+<hr>
+
+<h3>Output Comparison Result</h3>
+
+<div id="comparisonResult">
+
+    No comparison executed.
+
+</div>
+
+<br>
+
+<a
+    id="downloadCompareExcel"
+    href="/download-comparison-excel"
+>
+
+    Download Excel Report
+
+</a>
+
+<br><br>
+
+<a
+    id="downloadCompareJson"
+    href="/download-comparison-json"
+>
+
+    Download JSON Report
+
+</a>
+
+</div>
+
+</div>
 <script>
 
 async function loadProjects(){
@@ -440,6 +547,197 @@ async function loadJobInfo(){
         <b>Generated:</b> ${data.generated_time}
         `;
 }
+
+
+
+async function compareWorkflow1(){
+
+    const file =
+        document.getElementById(
+            "bomCompareC"
+        ).files[0];
+
+    if(!file){
+
+        alert(
+            "Select BOM file first"
+        );
+
+        return;
+    }
+
+    const formData =
+        new FormData();
+
+    formData.append(
+        "file",
+        file
+    );
+
+    document.getElementById(
+        "workflow1Status"
+    ).innerHTML =
+        "Uploading BOM...";
+
+    const response =
+        await fetch(
+            "/upload-bom-compare-c",
+            {
+                method:"POST",
+                body:formData
+            }
+        );
+
+    const result =
+        await response.json();
+
+    document.getElementById(
+    "workflow1Status"
+    ).innerHTML =
+        "[100%] Uploaded : "
+        + file.name +
+        "<br>[PROCESSING] Running Comparison...";
+
+    await fetch(
+        "/run-workflow1",
+        {
+            method:"POST"
+        }
+    );
+
+    document.getElementById(
+        "workflow1Status"
+    ).innerHTML =
+        "[100%] Uploaded : "
+        + file.name +
+        "<br>[100%] Comparison Completed";
+
+    loadComparisonResult();
+}
+
+async function compareWorkflow2(){
+
+    const bomA =
+        document.getElementById(
+            "bomCompareA"
+        ).files[0];
+
+    const bomB =
+        document.getElementById(
+            "bomCompareB"
+        ).files[0];
+
+    if(!bomA){
+
+        alert(
+            "Select BOM A"
+        );
+
+        return;
+    }
+
+    if(!bomB){
+
+        alert(
+            "Select BOM B"
+        );
+
+        return;
+    }
+
+    document.getElementById(
+        "workflow2Status"
+    ).innerHTML =
+        "Uploading BOM A...";
+
+    let formA =
+        new FormData();
+
+    formA.append(
+        "file",
+        bomA
+    );
+
+    await fetch(
+        "/upload-bom-compare-a",
+        {
+            method:"POST",
+            body:formA
+        }
+    );
+
+    document.getElementById(
+        "workflow2Status"
+    ).innerHTML =
+        "Uploading BOM B...";
+
+    let formB =
+        new FormData();
+
+    formB.append(
+        "file",
+        bomB
+    );
+
+    await fetch(
+        "/upload-bom-compare-b",
+        {
+            method:"POST",
+            body:formB
+        }
+    );
+
+    document.getElementById(
+    "workflow2Status"
+    ).innerHTML =
+        "[100%] BOM A Uploaded<br>" +
+        "[100%] BOM B Uploaded<br>" +
+        "[PROCESSING] Running Comparison...";
+
+    await fetch(
+        "/run-workflow2",
+        {
+            method:"POST"
+        }
+    );
+
+    document.getElementById(
+        "workflow2Status"
+    ).innerHTML =
+        "[100%] BOM A Uploaded<br>" +
+        "[100%] BOM B Uploaded<br>" +
+        "[100%] Comparison Completed";
+
+    loadComparisonResult();
+    }
+
+async function loadComparisonResult(){
+
+    const response =
+        await fetch(
+            "/comparison-result"
+        );
+
+    const data =
+        await response.json();
+
+    if(data.status === "no_result"){
+
+        return;
+    }
+
+    document.getElementById(
+    "comparisonResult"
+    ).innerHTML =
+    `
+    <b>Sites Changed:</b>
+    ${data.sites_changed}<br>
+
+    <b>Report Generated:</b>
+    Yes
+    `;
+}
+
 
 loadProjects();
 loadOutputInfo();

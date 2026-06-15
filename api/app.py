@@ -12,6 +12,9 @@ import json
 from datetime import datetime
 
 from src.run_pipeline import run_pipeline
+from src.run_bom_compare_pipeline import (
+    run_bom_compare_pipeline
+)
 
 LAST_BOM_FILE = None
 LAST_EPMS_FILE = None
@@ -176,6 +179,109 @@ async def upload_epms(file: UploadFile = File(...)):
         "size_bytes": os.path.getsize(destination)
     }
 
+# =====================================================
+# BOM COMPARISON - WORKFLOW 1
+# =====================================================
+
+@app.post("/upload-bom-compare-c")
+async def upload_bom_compare_c(
+    file: UploadFile = File(...)
+):
+
+    os.makedirs(
+        "input",
+        exist_ok=True
+    )
+
+    destination = (
+        "input/BOM_COMPARE_C.xlsx"
+    )
+
+    with open(
+        destination,
+        "wb"
+    ) as buffer:
+
+        shutil.copyfileobj(
+            file.file,
+            buffer
+        )
+
+    return {
+        "status": "success",
+        "saved_as": destination,
+        "original_filename": file.filename
+    }
+
+
+# =====================================================
+# BOM COMPARISON - WORKFLOW 2 BOM A
+# =====================================================
+
+@app.post("/upload-bom-compare-a")
+async def upload_bom_compare_a(
+    file: UploadFile = File(...)
+):
+
+    os.makedirs(
+        "input",
+        exist_ok=True
+    )
+
+    destination = (
+        "input/BOM_COMPARE_A.xlsx"
+    )
+
+    with open(
+        destination,
+        "wb"
+    ) as buffer:
+
+        shutil.copyfileobj(
+            file.file,
+            buffer
+        )
+
+    return {
+        "status": "success",
+        "saved_as": destination,
+        "original_filename": file.filename
+    }
+
+
+# =====================================================
+# BOM COMPARISON - WORKFLOW 2 BOM B
+# =====================================================
+
+@app.post("/upload-bom-compare-b")
+async def upload_bom_compare_b(
+    file: UploadFile = File(...)
+):
+
+    os.makedirs(
+        "input",
+        exist_ok=True
+    )
+
+    destination = (
+        "input/BOM_COMPARE_B.xlsx"
+    )
+
+    with open(
+        destination,
+        "wb"
+    ) as buffer:
+
+        shutil.copyfileobj(
+            file.file,
+            buffer
+        )
+
+    return {
+        "status": "success",
+        "saved_as": destination,
+        "original_filename": file.filename
+    }
 
 # =====================================================
 # FILE CHECK
@@ -358,6 +464,79 @@ def download_pr_general():
         path=file_path,
         filename="ECC_PR_Output_With_GeneralItems.xlsx",
         media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    )
+
+# =====================================================
+# BOM COMPARE WORKFLOW 1
+# =====================================================
+
+@app.post("/run-workflow1")
+def run_workflow1():
+
+    run_bom_compare_pipeline(
+        workflow="1"
+    )
+
+    return {
+        "status": "success"
+    }
+
+
+# =====================================================
+# BOM COMPARE WORKFLOW 2
+# =====================================================
+
+@app.post("/run-workflow2")
+def run_workflow2():
+
+    run_bom_compare_pipeline(
+        workflow="2"
+    )
+
+    return {
+        "status": "success"
+    }
+
+@app.get("/comparison-result")
+def comparison_result():
+
+    file_path = "output/bom_revision_report.json"
+
+    if not os.path.exists(file_path):
+
+        return {
+            "status": "no_result"
+        }
+
+    with open(
+        file_path,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
+        data = json.load(f)
+
+    return {
+        "status": "success",
+        "sites_changed": len(data),
+        "changes": data
+    }
+
+@app.get("/download-comparison-excel")
+def download_comparison_excel():
+
+    return FileResponse(
+        "output/bom_revision_report.xlsx",
+        filename="bom_revision_report.xlsx"
+    )
+
+
+@app.get("/download-comparison-json")
+def download_comparison_json():
+
+    return FileResponse(
+        "output/bom_revision_report.json",
+        filename="bom_revision_report.json"
     )
 
 @app.get("/ui", response_class=HTMLResponse)

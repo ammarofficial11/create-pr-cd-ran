@@ -1,623 +1,29 @@
 [
   {
-    "site_code": "1017E",
-    "site_name": "West Port CT3-1 Pole",
+    "site_code": "1040B",
+    "site_name": "Pinggiran Ukay",
     "region": "Central",
-    "du_code": "DU00002008504",
-    "changes": [
-      {
-        "item_key": "Antenna",
-        "legacy_qty": 3.0,
-        "latest_qty": 0,
-        "delta": -3.0,
-        "change_type": "REMOVED",
-        "remark": "Antenna removed Qty - 3 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "BBU Cards",
-        "legacy_qty": 1.0,
-        "latest_qty": 0,
-        "delta": -1.0,
-        "change_type": "REMOVED",
-        "remark": "BBU Cards removed Qty - 1 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Circuit Breaker",
-        "legacy_qty": 3.0,
-        "latest_qty": 2.0,
-        "delta": -1.0,
-        "change_type": "DECREASE",
-        "remark": "Circuit Breaker decrease Qty - 3 to 2",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "DCPD",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
-        "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "DCPD added Qty - 0 to 1",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Feeder 7/8",
-        "legacy_qty": 18.0,
-        "latest_qty": 4.0,
-        "delta": -14.0,
-        "change_type": "DECREASE",
-        "remark": "Feeder 7/8 decrease Qty - 18 to 4",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "FeederConnector 7/8",
-        "legacy_qty": 36.0,
-        "latest_qty": 8.0,
-        "delta": -28.0,
-        "change_type": "DECREASE",
-        "remark": "FeederConnector 7/8 decrease Qty - 36 to 8",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "RRU",
-        "legacy_qty": 3.0,
-        "latest_qty": 2.0,
-        "delta": -1.0,
-        "change_type": "DECREASE",
-        "remark": "RRU decrease Qty - 3 to 2",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "1018E",
-    "site_name": "West Port CT4-2 Pole",
-    "region": "Central",
-    "du_code": "DU00002008120",
-    "changes": [
-      {
-        "item_key": "Antenna",
-        "legacy_qty": 3.0,
-        "latest_qty": 0,
-        "delta": -3.0,
-        "change_type": "REMOVED",
-        "remark": "Antenna removed Qty - 3 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "BBU Cards",
-        "legacy_qty": 1.0,
-        "latest_qty": 0,
-        "delta": -1.0,
-        "change_type": "REMOVED",
-        "remark": "BBU Cards removed Qty - 1 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Circuit Breaker",
-        "legacy_qty": 3.0,
-        "latest_qty": 2.0,
-        "delta": -1.0,
-        "change_type": "DECREASE",
-        "remark": "Circuit Breaker decrease Qty - 3 to 2",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "DCPD",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
-        "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "DCPD added Qty - 0 to 1",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Feeder 7/8",
-        "legacy_qty": 18.0,
-        "latest_qty": 4.0,
-        "delta": -14.0,
-        "change_type": "DECREASE",
-        "remark": "Feeder 7/8 decrease Qty - 18 to 4",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "FeederConnector 7/8",
-        "legacy_qty": 36.0,
-        "latest_qty": 8.0,
-        "delta": -28.0,
-        "change_type": "DECREASE",
-        "remark": "FeederConnector 7/8 decrease Qty - 36 to 8",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "1019E",
-    "site_name": "West Port CT6-1 Pole",
-    "region": "Central",
-    "du_code": "DU00002008435",
-    "changes": [
-      {
-        "item_key": "Antenna",
-        "legacy_qty": 3.0,
-        "latest_qty": 0,
-        "delta": -3.0,
-        "change_type": "REMOVED",
-        "remark": "Antenna removed Qty - 3 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "BBU Cards",
-        "legacy_qty": 1.0,
-        "latest_qty": 2.0,
-        "delta": 1.0,
-        "change_type": "INCREASE",
-        "remark": "BBU Cards increase Qty - 1 to 2",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Circuit Breaker",
-        "legacy_qty": 3.0,
-        "latest_qty": 2.0,
-        "delta": -1.0,
-        "change_type": "DECREASE",
-        "remark": "Circuit Breaker decrease Qty - 3 to 2",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "DCPD",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
-        "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "DCPD added Qty - 0 to 1",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Feeder 7/8",
-        "legacy_qty": 18.0,
-        "latest_qty": 4.0,
-        "delta": -14.0,
-        "change_type": "DECREASE",
-        "remark": "Feeder 7/8 decrease Qty - 18 to 4",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "FeederConnector 7/8",
-        "legacy_qty": 36.0,
-        "latest_qty": 8.0,
-        "delta": -28.0,
-        "change_type": "DECREASE",
-        "remark": "FeederConnector 7/8 decrease Qty - 36 to 8",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "1020E",
-    "site_name": "West Port CT8-1 Pole",
-    "region": "Central",
-    "du_code": "DU00002008489",
-    "changes": [
-      {
-        "item_key": "Antenna",
-        "legacy_qty": 3.0,
-        "latest_qty": 0,
-        "delta": -3.0,
-        "change_type": "REMOVED",
-        "remark": "Antenna removed Qty - 3 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "BBU Cards",
-        "legacy_qty": 1.0,
-        "latest_qty": 0,
-        "delta": -1.0,
-        "change_type": "REMOVED",
-        "remark": "BBU Cards removed Qty - 1 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Circuit Breaker",
-        "legacy_qty": 3.0,
-        "latest_qty": 0,
-        "delta": -3.0,
-        "change_type": "REMOVED",
-        "remark": "Circuit Breaker removed Qty - 3 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Feeder 7/8",
-        "legacy_qty": 18.0,
-        "latest_qty": 0,
-        "delta": -18.0,
-        "change_type": "REMOVED",
-        "remark": "Feeder 7/8 removed Qty - 18 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "FeederConnector 7/8",
-        "legacy_qty": 36.0,
-        "latest_qty": 0,
-        "delta": -36.0,
-        "change_type": "REMOVED",
-        "remark": "FeederConnector 7/8 removed Qty - 36 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Post",
-        "legacy_qty": 1.0,
-        "latest_qty": 0,
-        "delta": -1.0,
-        "change_type": "REMOVED",
-        "remark": "Post removed Qty - 1 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "RRU",
-        "legacy_qty": 3.0,
-        "latest_qty": 0,
-        "delta": -3.0,
-        "change_type": "REMOVED",
-        "remark": "RRU removed Qty - 3 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "1127E",
-    "site_name": "West Port CT9 Pole",
-    "region": "Central",
-    "du_code": "DU00002008149",
-    "changes": [
-      {
-        "item_key": "Antenna",
-        "legacy_qty": 3.0,
-        "latest_qty": 0,
-        "delta": -3.0,
-        "change_type": "REMOVED",
-        "remark": "Antenna removed Qty - 3 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "BBU Cards",
-        "legacy_qty": 1.0,
-        "latest_qty": 0,
-        "delta": -1.0,
-        "change_type": "REMOVED",
-        "remark": "BBU Cards removed Qty - 1 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Circuit Breaker",
-        "legacy_qty": 3.0,
-        "latest_qty": 0,
-        "delta": -3.0,
-        "change_type": "REMOVED",
-        "remark": "Circuit Breaker removed Qty - 3 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Feeder 7/8",
-        "legacy_qty": 18.0,
-        "latest_qty": 0,
-        "delta": -18.0,
-        "change_type": "REMOVED",
-        "remark": "Feeder 7/8 removed Qty - 18 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "FeederConnector 7/8",
-        "legacy_qty": 36.0,
-        "latest_qty": 0,
-        "delta": -36.0,
-        "change_type": "REMOVED",
-        "remark": "FeederConnector 7/8 removed Qty - 36 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Post",
-        "legacy_qty": 1.0,
-        "latest_qty": 0,
-        "delta": -1.0,
-        "change_type": "REMOVED",
-        "remark": "Post removed Qty - 1 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "RRU",
-        "legacy_qty": 3.0,
-        "latest_qty": 0,
-        "delta": -3.0,
-        "change_type": "REMOVED",
-        "remark": "RRU removed Qty - 3 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "2011B",
-    "site_name": "West Port Building",
-    "region": "Central",
-    "du_code": "DU00002008457",
-    "changes": [
-      {
-        "item_key": "Antenna",
-        "legacy_qty": 3.0,
-        "latest_qty": 4.0,
-        "delta": 1.0,
-        "change_type": "INCREASE",
-        "remark": "Antenna increase Qty - 3 to 4",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Filter",
-        "legacy_qty": 3.0,
-        "latest_qty": 4.0,
-        "delta": 1.0,
-        "change_type": "INCREASE",
-        "remark": "Filter increase Qty - 3 to 4",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "RRU",
-        "legacy_qty": 3.0,
-        "latest_qty": 6.0,
-        "delta": 3.0,
-        "change_type": "INCREASE",
-        "remark": "RRU increase Qty - 3 to 6",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "2598A15",
-    "site_name": "pBTS Kompleks PAS Simpang Ampat",
-    "region": "Northern",
-    "du_code": "DU00003795855",
-    "changes": [
-      {
-        "item_key": "Feeder 7/8",
-        "legacy_qty": 24.0,
-        "latest_qty": 6.0,
-        "delta": -18.0,
-        "change_type": "DECREASE",
-        "remark": "Feeder 7/8 decrease Qty - 24 to 6",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "FeederConnector 7/8",
-        "legacy_qty": 48.0,
-        "latest_qty": 12.0,
-        "delta": -36.0,
-        "change_type": "DECREASE",
-        "remark": "FeederConnector 7/8 decrease Qty - 48 to 12",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "2625B",
-    "site_name": "Kota Emerald Watertank",
-    "region": "Central",
-    "du_code": "DU00001861449",
-    "changes": [
-      {
-        "item_key": "AAU",
-        "legacy_qty": 1.0,
-        "latest_qty": 0,
-        "delta": -1.0,
-        "change_type": "REMOVED",
-        "remark": "AAU removed Qty - 1 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "RRU",
-        "legacy_qty": 0,
-        "latest_qty": 6.0,
-        "delta": 6.0,
-        "change_type": "ADDED",
-        "remark": "RRU added Qty - 0 to 6",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "2665C",
-    "site_name": "Westport Tower IB",
-    "region": "Central",
-    "du_code": "DU00002008106",
-    "changes": [
-      {
-        "item_key": "RRU",
-        "legacy_qty": 6.0,
-        "latest_qty": 12.0,
-        "delta": 6.0,
-        "change_type": "INCREASE",
-        "remark": "RRU increase Qty - 6 to 12",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "2984C",
-    "site_name": "Sunway Pyramid New",
-    "region": "Central",
-    "du_code": "DU00005160902",
-    "changes": [
-      {
-        "item_key": "FeederConnector 1/2",
-        "legacy_qty": 0,
-        "latest_qty": 15.0,
-        "delta": 15.0,
-        "change_type": "ADDED",
-        "remark": "FeederConnector 1/2 added Qty - 0 to 15",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "RRU",
-        "legacy_qty": 9.0,
-        "latest_qty": 18.0,
-        "delta": 9.0,
-        "change_type": "INCREASE",
-        "remark": "RRU increase Qty - 9 to 18",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "3093C",
-    "site_name": "Bomba House RT",
-    "region": "Central",
-    "du_code": "DU00002038522",
-    "changes": [
-      {
-        "item_key": "BBU Cards",
-        "legacy_qty": 1.0,
-        "latest_qty": 0,
-        "delta": -1.0,
-        "change_type": "REMOVED",
-        "remark": "BBU Cards removed Qty - 1 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "3322B",
-    "site_name": "Sky Avenue Genting IB",
-    "region": "Central",
-    "du_code": "DU00002037802",
+    "du_code": "DU00006662835",
     "changes": [
       {
         "item_key": "Combiner",
-        "legacy_qty": 7.0,
-        "latest_qty": 12.0,
-        "delta": 5.0,
-        "change_type": "INCREASE",
-        "remark": "Combiner increase Qty - 7 to 12",
+        "legacy_qty": 1.0,
+        "latest_qty": 0,
+        "delta": -1.0,
+        "change_type": "REMOVED",
+        "remark": "Combiner removed Qty - 1 to 0",
         "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
       }
     ]
   },
   {
-    "site_code": "3439B14",
-    "site_name": "pBTS Ulu Basir & Changkat Mentri Estate Office",
-    "region": "Northern",
-    "du_code": "DU00002862228",
+    "site_code": "1045C",
+    "site_name": "Lestari Perdana",
+    "region": "Central",
+    "du_code": "DU00006662830",
     "changes": [
-      {
-        "item_key": "Feeder 7/8",
-        "legacy_qty": 6.0,
-        "latest_qty": 12.0,
-        "delta": 6.0,
-        "change_type": "INCREASE",
-        "remark": "Feeder 7/8 increase Qty - 6 to 12",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "FeederConnector 7/8",
-        "legacy_qty": 12.0,
-        "latest_qty": 24.0,
-        "delta": 12.0,
-        "change_type": "INCREASE",
-        "remark": "FeederConnector 7/8 increase Qty - 12 to 24",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
       {
         "item_key": "Power Module",
         "legacy_qty": 0,
@@ -626,512 +32,220 @@
         "change_type": "ADDED",
         "remark": "Power Module added Qty - 0 to 1",
         "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "RRU",
-        "legacy_qty": 6.0,
-        "latest_qty": 9.0,
-        "delta": 3.0,
-        "change_type": "INCREASE",
-        "remark": "RRU increase Qty - 6 to 9",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
       }
     ]
   },
   {
-    "site_code": "3827B",
-    "site_name": "Theme Park Hotel Genting Highland",
+    "site_code": "3239B",
+    "site_name": "Bandar Tasik Kesuma",
     "region": "Central",
-    "du_code": "DU00002038491",
+    "du_code": "DU00006662844",
     "changes": [
       {
-        "item_key": "Combiner",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
-        "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "Combiner added Qty - 0 to 1",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "RRU",
-        "legacy_qty": 2.0,
-        "latest_qty": 4.0,
-        "delta": 2.0,
-        "change_type": "INCREASE",
-        "remark": "RRU increase Qty - 2 to 4",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "9463B",
-    "site_name": "Kg Sepinang",
-    "region": "Sarawak",
-    "du_code": "DU00002863517",
-    "changes": [
-      {
-        "item_key": "RRU",
+        "item_key": "Bracket",
         "legacy_qty": 1.0,
-        "latest_qty": 4.0,
-        "delta": 3.0,
-        "change_type": "INCREASE",
-        "remark": "RRU increase Qty - 1 to 4",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "A00003",
-    "site_name": "A045A_A00003OD_TMGRIK",
-    "region": "Northern",
-    "du_code": "DU00002864473",
-    "changes": [
-      {
-        "item_key": "RRU",
-        "legacy_qty": 10.0,
-        "latest_qty": 6.0,
-        "delta": -4.0,
-        "change_type": "DECREASE",
-        "remark": "RRU decrease Qty - 10 to 6",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "A00021",
-    "site_name": "A041A_A00021OD_CB_JENALIK",
-    "region": "Northern",
-    "du_code": "DU00002862389",
-    "changes": [
-      {
-        "item_key": "DCPD",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
+        "latest_qty": 2.0,
         "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "DCPD added Qty - 0 to 1",
+        "change_type": "INCREASE",
+        "remark": "Bracket increase Qty - 1 to 2",
         "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
+      }
+    ]
+  },
+  {
+    "site_code": "4266C",
+    "site_name": "Taipan Slim River",
+    "region": "Northern",
+    "du_code": "DU00006662779",
+    "changes": [
       {
         "item_key": "ODCPD",
-        "legacy_qty": 3.0,
-        "latest_qty": 9.0,
-        "delta": 6.0,
-        "change_type": "INCREASE",
-        "remark": "ODCPD increase Qty - 3 to 9",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "RRU",
-        "legacy_qty": 6.0,
-        "latest_qty": 9.0,
-        "delta": 3.0,
-        "change_type": "INCREASE",
-        "remark": "RRU increase Qty - 6 to 9",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "B00847",
-    "site_name": "B062A_B00847OD_BT4SEPINTAS",
-    "region": "Central",
-    "du_code": "DU00002864581",
-    "changes": [
-      {
-        "item_key": "Combiner",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
-        "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "Combiner added Qty - 0 to 1",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "B02046",
-    "site_name": "B063A_B02046OD_MN_KGTBKDARAT",
-    "region": "Central",
-    "du_code": "DU00002007381",
-    "changes": [
-      {
-        "item_key": "Circuit Breaker",
         "legacy_qty": 0,
         "latest_qty": 2.0,
         "delta": 2.0,
         "change_type": "ADDED",
-        "remark": "Circuit Breaker added Qty - 0 to 2",
+        "remark": "ODCPD added Qty - 0 to 2",
         "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
       }
     ]
   },
   {
-    "site_code": "B02068",
-    "site_name": "W066X_B02068OD_MJDTMNKOSASAMPG",
-    "region": "Central",
-    "du_code": "DU00002863069",
-    "changes": [
-      {
-        "item_key": "Post",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
-        "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "Post added Qty - 0 to 1",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "B02371",
-    "site_name": "W067A_B02371OD_CRAN_PRESINT15",
-    "region": "Central",
-    "du_code": "DU00003271962",
-    "changes": [
-      {
-        "item_key": "Circuit Breaker",
-        "legacy_qty": 2.0,
-        "latest_qty": 5.0,
-        "delta": 3.0,
-        "change_type": "INCREASE",
-        "remark": "Circuit Breaker increase Qty - 2 to 5",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "C00011",
-    "site_name": "C046C_C00011OD_RESORTHOTELSL",
-    "region": "Central",
-    "du_code": "DU00002040840",
+    "site_code": "4348B",
+    "site_name": "Jaya Jusco Station 18 Ipoh",
+    "region": "Northern",
+    "du_code": "DU00006662801",
     "changes": [
       {
         "item_key": "Combiner",
-        "legacy_qty": 6.0,
-        "latest_qty": 10.0,
+        "legacy_qty": 0,
+        "latest_qty": 4.0,
         "delta": 4.0,
-        "change_type": "INCREASE",
-        "remark": "Combiner increase Qty - 6 to 10",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "K00244",
-    "site_name": "K008A_K00244OD_TMKUAH",
-    "region": "Northern",
-    "du_code": "DU00002863577",
-    "changes": [
-      {
-        "item_key": "RRU",
-        "legacy_qty": 12.0,
-        "latest_qty": 13.0,
-        "delta": 1.0,
-        "change_type": "INCREASE",
-        "remark": "RRU increase Qty - 12 to 13",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "K00883",
-    "site_name": "K007A_K00883OD_T3_KG_PAYA_JEMERLI",
-    "region": "Northern",
-    "du_code": "DU00002747828",
-    "changes": [
-      {
-        "item_key": "Power Module",
-        "legacy_qty": 0,
-        "latest_qty": 2.0,
-        "delta": 2.0,
         "change_type": "ADDED",
-        "remark": "Power Module added Qty - 0 to 2",
+        "remark": "Combiner added Qty - 0 to 4",
         "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "Q01081",
-    "site_name": "Q133A_Q01081OD_LDGKURAYA",
-    "region": "Sarawak",
-    "du_code": "DU00002865457",
-    "changes": [
-      {
-        "item_key": "Circuit Breaker",
-        "legacy_qty": 2.0,
-        "latest_qty": 0,
-        "delta": -2.0,
-        "change_type": "REMOVED",
-        "remark": "Circuit Breaker removed Qty - 2 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "Q01129",
-    "site_name": "Q130A_Q01129OD_T3_RHLINGGI",
-    "region": "Sarawak",
-    "du_code": "DU00002862476",
-    "changes": [
-      {
-        "item_key": "Circuit Breaker",
-        "legacy_qty": 2.0,
-        "latest_qty": 0,
-        "delta": -2.0,
-        "change_type": "REMOVED",
-        "remark": "Circuit Breaker removed Qty - 2 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "Q01231",
-    "site_name": "Q133A_Q01231OD_LDGJUDAN",
-    "region": "Sarawak",
-    "du_code": "DU00002865458",
-    "changes": [
-      {
-        "item_key": "Antenna",
-        "legacy_qty": 3.0,
-        "latest_qty": 0,
-        "delta": -3.0,
-        "change_type": "REMOVED",
-        "remark": "Antenna removed Qty - 3 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "R00090",
-    "site_name": "R001A_R00090OD_TMN_BESERIPERMAI",
-    "region": "Northern",
-    "du_code": "DU00002864500",
-    "changes": [
-      {
-        "item_key": "Battery",
-        "legacy_qty": 2.0,
-        "latest_qty": 3.0,
-        "delta": 1.0,
-        "change_type": "INCREASE",
-        "remark": "Battery increase Qty - 2 to 3",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "RRU",
-        "legacy_qty": 7.0,
-        "latest_qty": 6.0,
-        "delta": -1.0,
-        "change_type": "DECREASE",
-        "remark": "RRU decrease Qty - 7 to 6",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "S00294",
-    "site_name": "S107A_S00294_TMSFI",
-    "region": "Sabah",
-    "du_code": "DU00002865504",
-    "changes": [
-      {
-        "item_key": "Antenna",
-        "legacy_qty": 3.0,
-        "latest_qty": 0,
-        "delta": -3.0,
-        "change_type": "REMOVED",
-        "remark": "Antenna removed Qty - 3 to 0",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Battery",
-        "legacy_qty": 0,
-        "latest_qty": 2.0,
-        "delta": 2.0,
-        "change_type": "ADDED",
-        "remark": "Battery added Qty - 0 to 2",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "S01003",
-    "site_name": "S099A_S01003OD_CB_VRT3PAGALUNGAN",
-    "region": "Sabah",
-    "du_code": "DU00002040293",
-    "changes": [
-      {
-        "item_key": "Antenna",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
-        "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "Antenna added Qty - 0 to 1",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      }
-    ]
-  },
-  {
-    "site_code": "W01046",
-    "site_name": "W066U_W01046IB_TNB_DUA_SENTRAL",
-    "region": "Central",
-    "du_code": "DU00002747505",
-    "changes": [
-      {
-        "item_key": "Battery",
-        "legacy_qty": 0,
-        "latest_qty": 2.0,
-        "delta": 2.0,
-        "change_type": "ADDED",
-        "remark": "Battery added Qty - 0 to 2",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Cabinet",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
-        "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "Cabinet added Qty - 0 to 1",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "Combiner",
-        "legacy_qty": 0,
-        "latest_qty": 3.0,
-        "delta": 3.0,
-        "change_type": "ADDED",
-        "remark": "Combiner added Qty - 0 to 3",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
       },
       {
         "item_key": "FeederConnector 1/2",
-        "legacy_qty": 0,
-        "latest_qty": 6.0,
-        "delta": 6.0,
-        "change_type": "ADDED",
-        "remark": "FeederConnector 1/2 added Qty - 0 to 6",
+        "legacy_qty": 16.0,
+        "latest_qty": 36.0,
+        "delta": 20.0,
+        "change_type": "INCREASE",
+        "remark": "FeederConnector 1/2 increase Qty - 16 to 36",
         "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
+      },
+      {
+        "item_key": "RRU",
+        "legacy_qty": 4.0,
+        "latest_qty": 8.0,
+        "delta": 4.0,
+        "change_type": "INCREASE",
+        "remark": "RRU increase Qty - 4 to 8",
+        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
       }
     ]
   },
   {
-    "site_code": "W01321",
-    "site_name": "W066V_W01321IB_KL_GATEWAY",
-    "region": "Central",
-    "du_code": "DU00002865653",
+    "site_code": "4386A",
+    "site_name": "Lumut Port RDD",
+    "region": "Northern",
+    "du_code": "DU00004144139",
     "changes": [
-      {
-        "item_key": "BBU",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
-        "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "BBU added Qty - 0 to 1",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
       {
         "item_key": "Circuit Breaker",
         "legacy_qty": 0,
+        "latest_qty": 1.0,
+        "delta": 1.0,
+        "change_type": "ADDED",
+        "remark": "Circuit Breaker added Qty - 0 to 1",
+        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
+      }
+    ]
+  },
+  {
+    "site_code": "4742D",
+    "site_name": "Taman Farmasiutikal Seri Iskandar",
+    "region": "Northern",
+    "du_code": "DU00006662766",
+    "changes": [
+      {
+        "item_key": "ODCPD",
+        "legacy_qty": 0,
+        "latest_qty": 1.0,
+        "delta": 1.0,
+        "change_type": "ADDED",
+        "remark": "ODCPD added Qty - 0 to 1",
+        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
+      }
+    ]
+  },
+  {
+    "site_code": "4803D",
+    "site_name": "JALAN PABOI (REL)",
+    "region": "Northern",
+    "du_code": "DU00006662803",
+    "changes": [
+      {
+        "item_key": "ODCPD",
+        "legacy_qty": 0,
+        "latest_qty": 1.0,
+        "delta": 1.0,
+        "change_type": "ADDED",
+        "remark": "ODCPD added Qty - 0 to 1",
+        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
+      }
+    ]
+  },
+  {
+    "site_code": "7014L",
+    "site_name": "Kampung Baru Long Pond",
+    "region": "Sabah",
+    "du_code": "DU00006323193",
+    "changes": [
+      {
+        "item_key": "Bracket",
+        "legacy_qty": 1.0,
         "latest_qty": 2.0,
-        "delta": 2.0,
-        "change_type": "ADDED",
-        "remark": "Circuit Breaker added Qty - 0 to 2",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "DCPD",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
-        "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "DCPD added Qty - 0 to 1",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "GPS",
-        "legacy_qty": 0,
-        "latest_qty": 1.0,
-        "delta": 1.0,
-        "change_type": "ADDED",
-        "remark": "GPS added Qty - 0 to 1",
-        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
-      },
-      {
-        "item_key": "RRU",
-        "legacy_qty": 3.0,
-        "latest_qty": 4.0,
         "delta": 1.0,
         "change_type": "INCREASE",
-        "remark": "RRU increase Qty - 3 to 4",
+        "remark": "Bracket increase Qty - 1 to 2",
         "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
-        "legacy_date": "2026-01-07 16:26:29",
-        "latest_date": "2026-04-14 12:13:35"
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
+      }
+    ]
+  },
+  {
+    "site_code": "7019K",
+    "site_name": "S110B_S00226OD_MTXTWU",
+    "region": "Sabah",
+    "du_code": "DU00005837034",
+    "changes": [
+      {
+        "item_key": "Battery",
+        "legacy_qty": 5.0,
+        "latest_qty": 0,
+        "delta": -5.0,
+        "change_type": "REMOVED",
+        "remark": "Battery removed Qty - 5 to 0",
+        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
+      }
+    ]
+  },
+  {
+    "site_code": "7030L",
+    "site_name": "Kampung Kuala Petagas 2",
+    "region": "Sabah",
+    "du_code": "DU00005984754",
+    "changes": [
+      {
+        "item_key": "Circuit Breaker",
+        "legacy_qty": 0,
+        "latest_qty": 1.0,
+        "delta": 1.0,
+        "change_type": "ADDED",
+        "remark": "Circuit Breaker added Qty - 0 to 1",
+        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
+      }
+    ]
+  },
+  {
+    "site_code": "S00348",
+    "site_name": "S098C_S00348OD_TENGAHNIPAH",
+    "region": "Sabah",
+    "du_code": "DU00006407435",
+    "changes": [
+      {
+        "item_key": "Cabinet",
+        "legacy_qty": 2.0,
+        "latest_qty": 1.0,
+        "delta": -1.0,
+        "change_type": "DECREASE",
+        "remark": "Cabinet decrease Qty - 2 to 1",
+        "comparison_method": "Workflow 2 - Latest BOM vs Legacy BOM",
+        "legacy_date": "2026-04-28 09:19:18",
+        "latest_date": "2026-06-10 16:12:25"
       }
     ]
   }

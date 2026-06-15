@@ -8,24 +8,12 @@ from compare_bom_revision_v2 import (
     compare_bom_vs_bom
 )
 
-print()
-print("=" * 60)
-print("BOM REVISION COMPARISON TOOL")
-print("=" * 60)
-
-print()
-print("1 - PR Generated BOM vs Uploaded BOM")
-print("2 - BOM A vs BOM B")
-
-choice = input(
-    "\nSelect Workflow (1/2): "
-).strip()
 
 # =====================================================
 # WORKFLOW 1
 # =====================================================
 
-if choice == "1":
+def workflow1():
 
     print()
     print("=" * 60)
@@ -60,11 +48,12 @@ if choice == "1":
 
     compare_pr_vs_bom()
 
+
 # =====================================================
 # WORKFLOW 2
 # =====================================================
 
-elif choice == "2":
+def workflow2():
 
     print()
     print("=" * 60)
@@ -130,6 +119,34 @@ elif choice == "2":
 
     compare_bom_vs_bom()
 
-else:
 
-    print("Invalid Selection")
+# =====================================================
+# CONSOLE MODE
+# =====================================================
+
+if __name__ == "__main__":
+
+    print()
+    print("=" * 60)
+    print("BOM REVISION COMPARISON TOOL")
+    print("=" * 60)
+
+    print()
+    print("1 - PR Generated BOM vs Uploaded BOM")
+    print("2 - BOM A vs BOM B")
+
+    choice = input(
+        "\nSelect Workflow (1/2): "
+    ).strip()
+
+    if choice == "1":
+
+        workflow1()
+
+    elif choice == "2":
+
+        workflow2()
+
+    else:
+
+        print("Invalid Selection")

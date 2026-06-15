@@ -57,8 +57,13 @@ def run_script(script_name, selected_project=None, cwd=None, env=None):
     print("=" * 70)
     print(f"RUNNING: {script_name}")
     print("=" * 70)
+    print()
+    print("SYS EXECUTABLE")
+    print(sys.executable)
 
-    command = [sys.executable, script_name]
+   
+
+    command = ["python", script_name]
     if selected_project and script_name.endswith("simple_pr_generator.py"):
         command.extend(["--selected-project", selected_project])
 
