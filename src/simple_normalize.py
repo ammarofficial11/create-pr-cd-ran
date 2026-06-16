@@ -158,6 +158,16 @@ def load_epms_lookup():
 
     print("Loading EPMS lookup...")
 
+    if not os.path.exists(EPMS_FILE):
+
+        print(
+            "WARNING: EPMS file not found. "
+            "Using empty lookup."
+        )
+
+        return {}
+
+
     excel = pd.ExcelFile(EPMS_FILE)
 
     sheet_name = excel.sheet_names[0]

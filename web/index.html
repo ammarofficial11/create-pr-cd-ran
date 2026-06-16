@@ -245,7 +245,11 @@ No job generated yet
 
 </a>
 
-<br><br>
+<div id="compareExcelTime">
+    No file generated
+</div>
+
+<br>
 
 <a
     id="downloadCompareJson"
@@ -255,6 +259,10 @@ No job generated yet
     Download JSON Report
 
 </a>
+
+<div id="compareJsonTime">
+    No file generated
+</div>
 
 </div>
 
@@ -613,6 +621,7 @@ async function compareWorkflow1(){
         "<br>[100%] Comparison Completed";
 
     loadComparisonResult();
+    loadComparisonOutputInfo();
 }
 
 async function compareWorkflow2(){
@@ -709,7 +718,32 @@ async function compareWorkflow2(){
         "[100%] Comparison Completed";
 
     loadComparisonResult();
+    loadComparisonOutputInfo();
     }
+
+async function loadComparisonOutputInfo(){
+
+    const response =
+        await fetch(
+            "/comparison-output-info"
+        );
+
+    const data =
+        await response.json();
+
+    document.getElementById(
+        "compareExcelTime"
+    ).innerHTML =
+        "Generated: "
+        + (data.excel || "N/A");
+
+    document.getElementById(
+        "compareJsonTime"
+    ).innerHTML =
+        "Generated: "
+        + (data.json || "N/A");
+}
+
 
 async function loadComparisonResult(){
 
@@ -742,6 +776,7 @@ async function loadComparisonResult(){
 loadProjects();
 loadOutputInfo();
 loadJobInfo();
+loadComparisonOutputInfo();
 
 setInterval(
     checkStatus,

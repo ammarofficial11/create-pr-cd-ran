@@ -539,6 +539,43 @@ def download_comparison_json():
         filename="bom_revision_report.json"
     )
 
+@app.get("/comparison-output-info")
+def comparison_output_info():
+
+    import os
+    import datetime
+
+    result = {}
+
+    files = {
+
+        "excel":
+        "output/bom_revision_report.xlsx",
+
+        "json":
+        "output/bom_revision_report.json"
+    }
+
+    for key, path in files.items():
+
+        if os.path.exists(path):
+
+            modified_time = os.path.getmtime(path)
+
+            result[key] = (
+                datetime.datetime
+                .fromtimestamp(modified_time)
+                .strftime("%Y-%m-%d %H:%M:%S")
+            )
+
+        else:
+
+            result[key] = None
+
+    return result
+
+
+
 @app.get("/ui", response_class=HTMLResponse)
 def ui():
 
