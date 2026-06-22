@@ -1,0 +1,1 @@
+1. update QTY rule to return BOM value - 2026/06/16

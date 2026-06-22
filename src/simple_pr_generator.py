@@ -438,9 +438,13 @@ def generate_pr_for_site(site_code, site_data, rules):
         )
 
         if evaluate_rule(site_qty, rule):
+            rule_type = rule["RuleType"]
+            if rule_type == "QTY":
 
-            final_qty = 1
+                final_qty = site_qty
+            else:
 
+                final_qty = 1
             pr_line = {
 
                 "MaterialCode":
