@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.0",
+  "skillId": "create-pr-cd-ran",
+  "displayName": "Create PR CD RAN",
+  "version": "1.1.0",
+  "runtime": {
+    "type": "python",
+    "entrypoint": "src/main.py",
+    "minimumPython": "3.11"
+  },
+  "inputs": {
+    "files": [
+      {
+        "name": "bom",
+        "required": true,
+        "multiple": false,
+        "acceptedExtensions": [".xlsx"],
+        "maximumBytes": 104857600
+      },
+      {
+        "name": "epms",
+        "required": true,
+        "multiple": false,
+        "acceptedExtensions": [".xlsx"],
+        "maximumBytes": 104857600
+      }
+    ],
+    "parametersSchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["runMode"],
+      "properties": {
+        "runMode": { "type": "string", "enum": ["standard-pr", "general-item"] },
+        "selectedProject": { "type": "string" }
+      }
+    }
+  },
+  "execution": {
+    "timeoutSeconds": 3600,
+    "supportsCancellation": true,
+    "cancellation": { "type": "sentinelFile", "path": "temp/cancel.requested" },
+    "limits": { "progressHeartbeatSeconds": 30 }
+  },
+  "resultContractVersion": "1.0",
+  "release": {
+    "packageIdentity": "git-commit-plus-runtime-sha256",
+    "notes": "BOM, EPMS, project validation, calculation, and workbook generation remain owned by this Python skill."
+  }
+}
