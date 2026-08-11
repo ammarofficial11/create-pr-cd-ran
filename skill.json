@@ -35,6 +35,80 @@
       }
     }
   },
+  "ui": {
+    "schemaVersion": "1.0",
+    "workerLabel": "RAN PR Worker",
+    "hero": {
+      "title": "Launch PR Creator jobs with MW PR and RAN PR modes.",
+      "subtitle": "Launch MW PR or RAN PR jobs with validated inputs, live progress, and controlled result delivery from one dedicated PR Creator route.",
+      "chips": ["RAN PR Worker", "Validate"],
+      "includeModeChip": true
+    },
+    "workbench": { "title": "PR Creator" },
+    "actions": {
+      "primaryLabel": "Create Job",
+      "readyLabel": "Ready to create Job",
+      "missingFilesMessage": "Upload both BOM and EPMS workbooks to start.",
+      "validationMessage": "Validate both BOM and EPMS workbooks before creating a Job.",
+      "missingParametersMessage": "Select a project for General Item mode."
+    },
+    "uploads": {
+      "bom": {
+        "title": "BOM Upload",
+        "label": "BOM workbook",
+        "hint": "Upload the source BOM workbook required for the RAN PR worker.",
+        "actionLabel": "Validate BOM",
+        "validationRequired": true
+      },
+      "epms": {
+        "title": "EPMS Upload",
+        "label": "EPMS workbook",
+        "hint": "Upload the EPMS workbook required for RAN matching and General Item logic.",
+        "actionLabel": "Validate EPMS",
+        "validationRequired": true
+      }
+    },
+    "configuration": {
+      "mode": {
+        "field": "runMode",
+        "labels": { "standard-pr": "Standard PR", "general-item": "General Item" }
+      },
+      "switcher": {
+        "label": "PR Creator Mode",
+        "options": [
+          { "skillId": "create-pr-cd", "label": "MW PR", "routeName": "pr-creator" },
+          { "skillId": "create-pr-cd-ran", "label": "RAN PR", "routeName": "ran-pr-creator" }
+        ]
+      },
+      "fieldOrder": ["runMode", "selectedProject"],
+      "emptyStates": [
+        {
+          "visibleWhen": { "field": "runMode", "equals": "standard-pr" },
+          "text": "Standard PR runs non-interactively after BOM and EPMS validation."
+        },
+        {
+          "visibleWhen": { "field": "runMode", "equals": "general-item" },
+          "text": "Enter a workbook-backed General Item project after both uploads validate."
+        }
+      ]
+    },
+    "parameters": {
+      "runMode": {
+        "label": "Run mode",
+        "control": "segmented",
+        "options": [
+          { "value": "standard-pr", "label": "Standard PR" },
+          { "value": "general-item", "label": "General Item" }
+        ]
+      },
+      "selectedProject": {
+        "label": "General Item project",
+        "placeholder": "Enter a validated project",
+        "disabledWhen": { "field": "runMode", "equals": "standard-pr" },
+        "requiredWhen": { "field": "runMode", "equals": "general-item" }
+      }
+    }
+  },
   "execution": {
     "timeoutSeconds": 3600,
     "supportsCancellation": true,
