@@ -21,7 +21,7 @@ from typing import Any
 SKILL_ROOT = Path(__file__).resolve().parents[1]
 CONTRACT_VERSION = "1.0"
 SKILL_ID = "create-pr-cd-ran"
-SKILL_VERSION = "1.1.0"
+SKILL_VERSION = "1.1.1"
 PIPELINE = (
     "simple_normalize.py",
     "simple_calculation.py",
@@ -127,6 +127,21 @@ def declared_file(envelope: dict[str, Any], workspace: Path, name: str) -> Path:
     return path
 
 
+def list_approved_projects() -> list[str]:
+    try:
+        import pandas as pd
+        sheets = pd.read_excel(SKILL_ROOT / "config" / "GENERAL ITEM FOR ALL DU PROJECT Overall.xlsx", sheet_name=None)
+        approved = {
+            str(column).strip()
+            for frame in sheets.values()
+            for column in list(frame.columns)[4:]
+            if str(column).strip() and str(column).lower() != "nan" and not str(column).startswith("Unnamed")
+        }
+    except Exception as exc:
+        raise ContractError("RAN_PROJECT_CATALOG_INVALID", "The RAN project catalog could not be read.", "domain_configuration") from exc
+    return sorted(approved)
+
+
 def validate_parameters(parameters: dict[str, Any]) -> tuple[str, str | None]:
     unknown = sorted(set(parameters) - {"runMode", "selectedProject"})
     if unknown:
@@ -139,18 +154,7 @@ def validate_parameters(parameters: dict[str, Any]) -> tuple[str, str | None]:
         return run_mode, None
     if not project:
         raise ContractError("INVALID_RAN_PROJECT", "selectedProject is required for general-item mode.")
-    try:
-        import pandas as pd
-        sheets = pd.read_excel(SKILL_ROOT / "config" / "GENERAL ITEM FOR ALL DU PROJECT Overall.xlsx", sheet_name=None)
-        approved = {
-            str(column).strip()
-            for frame in sheets.values()
-            for column in list(frame.columns)[4:]
-            if str(column).strip() and str(column).lower() != "nan" and not str(column).startswith("Unnamed")
-        }
-    except Exception as exc:
-        raise ContractError("RAN_PROJECT_CATALOG_INVALID", "The RAN project catalog could not be read.", "domain_configuration") from exc
-    if project not in approved:
+    if project not in list_approved_projects():
         raise ContractError("INVALID_RAN_PROJECT", "selectedProject is not present in the approved RAN project catalog.")
     return run_mode, project
 

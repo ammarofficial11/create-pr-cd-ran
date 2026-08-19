@@ -17,6 +17,15 @@ def test_manifest_identity_matches_entrypoint():
     assert manifest["resultContractVersion"] == MODULE.CONTRACT_VERSION
 
 
+def test_manifest_project_dropdown_matches_approved_workbook_catalog():
+    manifest = json.loads((ROOT / "skill.json").read_text(encoding="utf-8"))
+    presentation = manifest["ui"]["parameters"]["selectedProject"]
+    assert presentation["control"] == "select"
+    assert presentation["placeholder"] == "Select a validated project"
+    assert [option["value"] for option in presentation["options"]] == MODULE.list_approved_projects()
+    assert all(option["label"] == option["value"] for option in presentation["options"])
+
+
 def test_declared_file_rejects_checksum_mismatch(tmp_path):
     input_dir = tmp_path / "input"
     input_dir.mkdir()

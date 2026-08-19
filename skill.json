@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "skillId": "create-pr-cd-ran",
   "displayName": "Create PR CD RAN",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "runtime": {
     "type": "python",
     "entrypoint": "src/main.py",
@@ -88,7 +88,7 @@
         },
         {
           "visibleWhen": { "field": "runMode", "equals": "general-item" },
-          "text": "Enter a workbook-backed General Item project after both uploads validate."
+          "text": "Select a workbook-backed General Item project after both uploads validate."
         }
       ]
     },
@@ -103,7 +103,25 @@
       },
       "selectedProject": {
         "label": "General Item project",
-        "placeholder": "Enter a validated project",
+        "control": "select",
+        "placeholder": "Select a validated project",
+        "options": [
+          { "value": "2023 Celcomdigi BAU", "label": "2023 Celcomdigi BAU" },
+          { "value": "2024 Celcomdigi BAU", "label": "2024 Celcomdigi BAU" },
+          { "value": "2025 NIC revisit", "label": "2025 NIC revisit" },
+          { "value": "CD consolidation 2023 (Decomm RAN)", "label": "CD consolidation 2023 (Decomm RAN)" },
+          { "value": "CD consolidation 2023 (Decomm TX)", "label": "CD consolidation 2023 (Decomm TX)" },
+          { "value": "CD consolidation 2023 (Swap/ Modernize)", "label": "CD consolidation 2023 (Swap/ Modernize)" },
+          { "value": "CR with Equipment", "label": "CR with Equipment" },
+          { "value": "Celcomdigi USP", "label": "Celcomdigi USP" },
+          { "value": "Decomm Cabinet CR", "label": "Decomm Cabinet CR" },
+          { "value": "Decomm Reuse", "label": "Decomm Reuse" },
+          { "value": "Highways Add Sec", "label": "Highways Add Sec" },
+          { "value": "Imacro BBU Swap", "label": "Imacro BBU Swap" },
+          { "value": "MSQos_2025", "label": "MSQos_2025" },
+          { "value": "NIC congest upgrade", "label": "NIC congest upgrade" },
+          { "value": "Project Thanos", "label": "Project Thanos" }
+        ],
         "disabledWhen": { "field": "runMode", "equals": "standard-pr" },
         "requiredWhen": { "field": "runMode", "equals": "general-item" }
       }
