@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "skillId": "create-pr-cd-ran",
   "displayName": "Create PR CD RAN",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "runtime": {
     "type": "python",
     "entrypoint": "src/main.py",

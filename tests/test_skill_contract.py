@@ -1,6 +1,7 @@
 import hashlib
 import importlib.util
 import json
+import zipfile
 from pathlib import Path
 
 
@@ -48,3 +49,19 @@ def test_output_item_contains_actual_checksum(tmp_path):
     item = MODULE.output_item(artifact, tmp_path)
     assert item["path"] == "output/result.json"
     assert item["sha256"] == hashlib.sha256(b"{}").hexdigest()
+
+
+def test_delivery_archive_contains_every_approved_output(tmp_path):
+    output = tmp_path / "output"
+    output.mkdir()
+    artifacts = [output / "first.json", output / "second.xlsx"]
+    artifacts[0].write_text("{}", encoding="utf-8")
+    artifacts[1].write_bytes(b"workbook")
+
+    archive = MODULE.create_delivery_archive(output, artifacts)
+
+    assert archive.name == MODULE.DELIVERY_ARCHIVE
+    with zipfile.ZipFile(archive) as bundle:
+        assert bundle.namelist() == ["first.json", "second.xlsx"]
+        assert bundle.read("first.json") == b"{}"
+        assert bundle.read("second.xlsx") == b"workbook"

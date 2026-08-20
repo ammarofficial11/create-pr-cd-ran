@@ -13,6 +13,7 @@ import subprocess
 import sys
 import threading
 import time
+import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -21,7 +22,8 @@ from typing import Any
 SKILL_ROOT = Path(__file__).resolve().parents[1]
 CONTRACT_VERSION = "1.0"
 SKILL_ID = "create-pr-cd-ran"
-SKILL_VERSION = "1.1.1"
+SKILL_VERSION = "1.1.2"
+DELIVERY_ARCHIVE = "CREATE_PR_CD_RAN_DELIVERY.zip"
 PIPELINE = (
     "simple_normalize.py",
     "simple_calculation.py",
@@ -200,6 +202,15 @@ def output_item(path: Path, workspace: Path) -> dict[str, Any]:
     }
 
 
+def create_delivery_archive(output: Path, candidates: list[Path]) -> Path:
+    """Package every approved RAN artifact into the primary delivery ZIP."""
+    archive = output / DELIVERY_ARCHIVE
+    with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED) as bundle:
+        for candidate in candidates:
+            bundle.write(candidate, candidate.relative_to(output).as_posix())
+    return archive
+
+
 def write_result(path: Path, payload: dict[str, Any]) -> None:
     temporary = path.with_suffix(path.suffix + ".tmp")
     temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -240,6 +251,8 @@ def run(input_manifest: Path) -> int:
         outputs = [output / name for name in APPROVED_OUTPUTS if (output / name).is_file()]
         if not outputs:
             raise ContractError("RAN_OUTPUT_MISSING", "The RAN pipeline produced no approved outputs.", "domain_processing")
+        emit("progress", "result_packaging", "Packaging RAN outputs for download.", 95)
+        outputs.append(create_delivery_archive(output, outputs))
         sites = site_count(output)
         payload = {
             "schemaVersion": CONTRACT_VERSION,
